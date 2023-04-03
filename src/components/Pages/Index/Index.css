@@ -1,0 +1,323 @@
+.main-div-background {
+    background: radial-gradient(ellipse at bottom, rgba(40, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.main-div-container {
+    position: initial;
+    max-width: 100%;
+    height: 100vh;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-clip: content-box;
+    -moz-background-clip: content-box;
+    background-image: url("../../../../public/images/img_Cenary\(0\).png");
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: repeat;
+    animation-name: backgroundScroll;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+
+@keyframes backgroundScroll {
+	0% {
+        background-position: 0% 0;
+    }
+	100% {
+        background-position: 2400px;
+    }
+}
+
+#janny-image {
+    width: 80%;
+    max-width: 100%;
+    pointer-events: none;
+    background-image: url("../../../../public/images/img_JannyCoins.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #a01010;
+    border: 1px outset #fff;
+    border-radius: 50%;
+    animation-name: JannyImageBackground;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+    animation-iteration-count: infinite;
+}
+
+@keyframes JannyImageBackground {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 40px 40px;
+    }
+}
+
+#janny-logo-image {
+    width: 80%;
+    pointer-events: none;
+    animation-name: hoverSimpleAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes hoverSimpleAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px) translateX(-5px) rotateX(1deg);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#main-div-container-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-buttons {
+    width: 20vh;
+    height: 7vh;
+    border: 2px solid;
+    border-style:inset  ;
+    border-radius: 10px;
+    transition: all 0.3s;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
+    box-shadow: #101010 0px 3px;
+}
+
+.main-buttons:hover {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.main-buttons:active {
+    filter: invert(0.05);
+}
+
+#invite-button {
+    background-color: #b01010;
+    margin: 0 30px;
+}
+
+#invite-button:hover {
+    background-color: #a01010;
+}
+
+#support-button {
+    background-color: #151515;
+}
+
+#support-button:hover {
+    background-color: #101010;
+}
+
+#arrow {
+    animation-name: arrowAnimation;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+    animation-iteration-count: infinite;
+    transition: all 0.3;
+}
+
+@keyframes arrowAnimation {
+    0% {
+        transform: translate3d(0, -55px, 0);
+    }
+    20% {
+        transform: translate3d(0, -35px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, -55px, 0);
+    }
+}
+
+.introduction-div {
+    background-color: rgb(10, 15, 25);
+}
+
+.introduction-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#introduction-title {
+    margin: 0;
+    font-size: 40pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#janny-span {
+    color: #c01010;
+}
+
+.introduction-title-lines {
+    width: 100%;
+}
+
+#introduction-title-red-line {
+    width: 65%;
+    height: 2px;
+}
+
+.introduction-texts-div {
+    width: 100%;
+    margin: auto;
+    padding: 125px 0px;
+}
+
+.introduction-categories-div {
+    height: 83%;
+}
+
+.introduction-texts-board {
+    background-color: #1a1a20;
+    border: 40px solid #1a1a20;
+    border-radius: 1%;
+    box-shadow: #801010 2px 2px, #801010 2px -2px, #801010 -2px -2px, #801010 -2px 2px, #101010 8px 8px;
+}
+
+.introduction-categories-boards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.introduction-categories-board {
+    background-color: #1a1a20;
+    flex-direction: row;
+}
+
+.introduction-texts {
+    color: #f0f0f0;
+}
+
+#main-div-container-image {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #main-div-container-image {
+        display: none;
+    }
+}
+
+.panels-main-div {
+    /*background: radial-gradient(ellipse at bottom, rgba(10, 15, 25, 1) 0%, rgba(10, 15, 35, 1) 100%);*/
+    background-color: #1a1a1a;
+    background-image: url("../../../../public/images/img_Background.png");
+    background-position: center;
+    background-size: 100%;
+    animation-name: BackgroundSpace;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes BackgroundSpace {
+    0% {
+        background-position: center;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+.image-panels {
+    width: 85.2%;
+    pointer-events: none;
+}
+
+.panel-titles {
+    width: 70%;
+    margin: 0;
+    color: #fff;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.panels-main-panels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panels-main-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-items: center;*/
+}
+
+.bar-icons {
+    width: 100%;
+}
+
+.categories-titles-div {
+    display: flex;
+    align-items: center;
+}
+
+.lines-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.panels-lines-div {
+    height: 100%;
+}
+
+.panels-lines {
+    position: inherit;
+    left: 0%;
+    width: 50px;
+}
+
+.lines-text-flex {
+    display: flex;
+}
+
+.lines-images {
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.panels-panels {
+    width: 73.5%;
+}
