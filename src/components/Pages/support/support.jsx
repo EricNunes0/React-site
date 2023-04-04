@@ -3,8 +3,8 @@ import './support.css';
 function Support() {
     const iconURL = "https://i.imgur.com/7rCYNja.png";
     const supportServerURL = "https://discord.gg/egnNbVvnqx";
-    const onlineCount = 29;
-    const memberCount = 39;
+    const onlineCount = 89;
+    const memberCount = 802;
     const onlineIcon = "../../images/img_online.png";
     const offlineIcon = "../../images/img_offline.png";
 
@@ -21,7 +21,7 @@ function Support() {
                                 <h2 className = "support-title">Suporte do Janny</h2>
                             </div>
                             <div className = "support-texts-description-div">
-                                <p>Está com alguma dúvida e precisa de ajuda? Quer saber das últimas novidades do Janny? Ou quer apenas um lugar divertido para conversar com outras pessoas?<br></br><br></br>Então eu tenho uma sugestão para você: a Janny City! Lá temos uma comunidade incrível e receptiva que lhe ajudarão com o que você precisar. Venha se juntar a nossa cidade, estamos de braços abertos para você! ❤</p>
+                                <p className = "support-description">Está com alguma dúvida e precisa de ajuda? Quer saber das últimas novidades do Janny? Ou quer apenas um lugar divertido para conversar com outras pessoas?<br></br><br></br>Então eu tenho uma sugestão para você: a Janny City! Lá temos uma comunidade incrível e receptiva que lhe ajudará com o que você precisar. Venha se juntar a nossa cidade, estamos de braços abertos para você! ❤</p>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ function Support() {
                                     <h2 className = "support-title">Servidor de Suporte</h2>
                                 </div>
                                 <div className = "support-help-description">
-                                    <p>Precisa de ajuda? Entre em meu servidor e abra um ticket para que um de nossos administradores possa lhe ajudar!</p>
+                                    <p className = "support-description-ticket">Precisa de ajuda? Entre em meu servidor e abra um ticket no atendimento.<br></br>Ficaremos felizes em lhe ajudar!</p>
                                 </div>
                             </div>
                         </div>

@@ -38,6 +38,19 @@
     }
 }
 
+#main-div-container-image {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    #main-div-container-image {
+        display: none;
+    }
+}
+
 #janny-image {
     width: 80%;
     max-width: 100%;
@@ -46,7 +59,7 @@
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
-    background-color: #a01010;
+    background-color: #800000;
     border: 1px outset #fff;
     border-radius: 50%;
     animation-name: JannyImageBackground;
@@ -64,15 +77,30 @@
     }
 }
 
-#janny-logo-image {
-    width: 80%;
-    pointer-events: none;
-    animation-name: hoverSimpleAnimation;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-timing-function: ease-in-out;
+@media screen and (min-width: 769px) {
+    #janny-logo-image {
+        width: 80%;
+        pointer-events: none;
+        animation-name: hoverSimpleAnimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-timing-function: ease-in-out;
+    }    
 }
+
+@media screen and (max-width: 768px) {
+    #janny-logo-image {
+        width: 100%;
+        pointer-events: none;
+        animation-name: hoverSimpleAnimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-timing-function: ease-in-out;
+    }    
+}
+
 
 @keyframes hoverSimpleAnimation {
     0% {
@@ -89,10 +117,12 @@
 }
 
 #main-div-container-buttons {
+    width: 60%;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .main-buttons {
@@ -120,7 +150,7 @@
 
 #invite-button {
     background-color: #b01010;
-    margin: 0 30px;
+    margin: 0 auto;
 }
 
 #invite-button:hover {
@@ -156,15 +186,17 @@
     }
 }
 
-.introduction-div {
-    background-color: rgb(10, 15, 25);
-}
-
-.introduction-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.introduction-main-div {
+    /*background: radial-gradient(ellipse at bottom, rgba(10, 15, 25, 1) 0%, rgba(10, 15, 35, 1) 100%);*/
+    background-color: #1a1a1a;
+    background-image: url("../../../../public/images/img_Background.png");
+    background-position: center;
+    background-size: 100%;
+    animation-name: BackgroundSpace;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+    animation-timing-function: ease-in-out;
 }
 
 #introduction-title {
@@ -190,61 +222,19 @@
 .introduction-texts-div {
     width: 100%;
     margin: auto;
-    padding: 125px 0px;
-}
-
-.introduction-categories-div {
-    height: 83%;
+    padding: 5% 0%;
 }
 
 .introduction-texts-board {
+    width: 80%;
     background-color: #1a1a20;
-    border: 40px solid #1a1a20;
-    border-radius: 1%;
-    box-shadow: #801010 2px 2px, #801010 2px -2px, #801010 -2px -2px, #801010 -2px 2px, #101010 8px 8px;
-}
-
-.introduction-categories-boards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.introduction-categories-board {
-    background-color: #1a1a20;
-    flex-direction: row;
+    padding: 5%;
+    margin: auto;
 }
 
 .introduction-texts {
     color: #f0f0f0;
-}
-
-#main-div-container-image {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    border-radius: 50px;
-}
-
-@media screen and (max-width: 768px) {
-    #main-div-container-image {
-        display: none;
-    }
-}
-
-.panels-main-div {
-    /*background: radial-gradient(ellipse at bottom, rgba(10, 15, 25, 1) 0%, rgba(10, 15, 35, 1) 100%);*/
-    background-color: #1a1a1a;
-    background-image: url("../../../../public/images/img_Background.png");
-    background-position: center;
-    background-size: 100%;
-    animation-name: BackgroundSpace;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0, 0, 1, 1);
-    animation-timing-function: ease-in-out;
+    letter-spacing: 1px;
 }
 
 @keyframes BackgroundSpace {
@@ -254,70 +244,4 @@
     100% {
         background-position: 100%;
     }
-}
-
-.image-panels {
-    width: 85.2%;
-    pointer-events: none;
-}
-
-.panel-titles {
-    width: 70%;
-    margin: 0;
-    color: #fff;
-    text-align: left;
-    padding-left: 5px;
-}
-
-.panels-main-panels {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.panels-main-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /*align-items: center;*/
-}
-
-.bar-icons {
-    width: 100%;
-}
-
-.categories-titles-div {
-    display: flex;
-    align-items: center;
-}
-
-.lines-div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.panels-lines-div {
-    height: 100%;
-}
-
-.panels-lines {
-    position: inherit;
-    left: 0%;
-    width: 50px;
-}
-
-.lines-text-flex {
-    display: flex;
-}
-
-.lines-images {
-    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
-}
-
-.panels-panels {
-    width: 73.5%;
 }

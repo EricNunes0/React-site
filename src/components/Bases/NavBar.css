@@ -113,6 +113,13 @@
     }
 }
 
+.navigation-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .navigation-menu-div {
     border: 1px solid #3050e0;
     background-color: rgba(0, 0, 0, 0.8);
@@ -137,19 +144,20 @@
 
 #navigation-bar-button {
     padding: 2.6vh;
+    transition: background-color 0.3s;
 }
 
 #navigation-bar-button:hover {
     cursor: pointer;
-    background-color: #fff;
     filter: invert(0);
+}
+
+#navigation-bar-button#open {
+    padding: 2.6vh;
+    transition: background-color 0.3s;
 }
 
 #navigation-bar-menu-icon {
     cursor: pointer;
     width: 50%;
-}
-
-#navigation-bar-menu-icon:hover {
-    filter: invert(1);
 }
