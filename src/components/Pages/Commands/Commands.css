@@ -1,3 +1,11 @@
+.commands-page-main {
+    background-image: radial-gradient(ellipse at bottom, rgba(40, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .commands-categories {
     display: flex;
     flex-direction: column;
@@ -8,10 +16,11 @@
 
 .moderation-commands-bars {
     align-items: center;
-    width: 60%;
+    width: 100%;
     display: block;
     box-sizing: border-box;
-    margin: 0;
+    margin: 10px 0;
+    border-radius: 3%;
 }
 
 .close .moderation-commands-content {
@@ -23,41 +32,47 @@
 }
 
 .open .moderation-commands-content {
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #000;
     width: 100%;
+    background-color: #252525;
+    color: #f0f0f0;
+    text-align: left;
+    padding: 20px;
     margin: 0px 0px 10px 0px;
     display: block;
     transform: scaleY(1);
     transform-origin: top;
-    transition: transform 0.4s ease;
+    /*transform: translate3d(0, -5px, 0);*/
+    transition: transform 0.2s ease-in-out;
     box-sizing: border-box;
 }
 
 .open .moderation-commands-titles{
-    margin:0px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    background-color: #073e63;
-    color: #cdd7d8;
+    background-color: #151515;
 }
 
 .moderation-commands-titles {
+    width: 100%;
+    background-color:#202020;
+    color: #fff;
+    font-size: 10pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
     text-align: left;
     cursor: pointer;
-    margin:0px 0px 10px 0px;
-    padding:10px;
-    font-size: 22px;
-    font-weight: 400;
-    background:#a0a0ff;
-    color:#fff;
-    width:100%;
-    border-radius: 3px;
+    padding: 3px 5px;
+    border-radius: 10px;
     box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+.moderation-commands-titles:hover {
+    background-color: #151515;
+}
+
+.moderation-titles {
+    text-decoration: underline;
+    text-decoration-color: #3060ff;
+    text-decoration-thickness: from-font;
 }
 
 .moderation-commands-titles span {

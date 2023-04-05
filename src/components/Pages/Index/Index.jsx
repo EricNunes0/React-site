@@ -7,7 +7,7 @@ function Index() {
             <div className = "main-div-background">
                 <div className = "main-div-container">
                     <div className = "main-div-container-divs" id = "main-div-container-image">
-                        <img id = "janny-image" src = "../images/img_JannyCircle.png" alt = "Janny"></img>
+                        <img className = "janny-image red" src = "../images/img_JannyCircle.png" alt = "Janny"></img>
                     </div>
                     <div className = "main-div-container-divs" id = "main-div-container-infos">
                         <div className = "main-div-container-informations" id = "main-div-container-logo">

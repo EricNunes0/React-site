@@ -51,21 +51,21 @@
     }
 }
 
-#janny-image {
+.janny-image.red {
     width: 80%;
     max-width: 100%;
     pointer-events: none;
-    background-image: url("../../../../public/images/img_JannyCoins.png");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    background-color: #800000;
     border: 1px outset #fff;
     border-radius: 50%;
     animation-name: JannyImageBackground;
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0, 0, 1, 1);
     animation-iteration-count: infinite;
+    background-image: url("../../../../public/images/img_JannyCoins.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #800000;
 }
 
 @keyframes JannyImageBackground {
