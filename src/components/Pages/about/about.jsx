@@ -20,6 +20,11 @@ function About() {
                             </div>
                         </div>
                     </div>
+                    <section className = "about-section">
+                        <div className = "about-div">
+                            <p>Oi</p>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>

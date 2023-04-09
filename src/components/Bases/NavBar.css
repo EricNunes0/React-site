@@ -1,12 +1,19 @@
-.navigation-bar {
+/* Barra de navegação */
+.nav-bar {
     position: fixed;
     z-index: 1;
-    top: 0;
     width: 100%;
     height: 10vh;
     background-image: linear-gradient(90deg, rgba(0, 0, 10, 1), rgba(0, 0, 0, 0.95));
-    border-bottom: 1px solid;
-    border-color:rgb(20, 20, 20);
+    border-bottom: 1px solid #141414;
+    transition: all 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+/* Barra de navegação desativada */
+
+.nav-bar.closed {
+    transform: translateY(-10vh);
 }
 
 /*Maior que 768px e menor que 1024px*/
@@ -38,6 +45,23 @@
     justify-content: center;
 }
 
+#nav-enter-div {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #3050e0;
+    padding: 8px 10px;
+    border: #000;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#nav-enter-div:hover {
+    color: #d0d0d0;
+    background-color: #2040d0;
+}
+
 .nav-texts {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -64,6 +88,10 @@
 .nav-icons {
     width: 20px;
     margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-bars-image {
@@ -71,9 +99,6 @@
 }
 
 #nav-text-enter {
-    background-color: #3050e0;
-    border: #000;
-    border-radius: 5px;
     transition: 0.5s;
     display: flex;
     align-items: center;
@@ -86,8 +111,13 @@
 
 #nav-bars-enter-discord-logo {
     position: relative;
+    top: 3.5px;
     left: -5px;
     margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Maior que 480px e menor que 768px*/
@@ -159,5 +189,28 @@
 
 #navigation-bar-menu-icon {
     cursor: pointer;
+    width: 50%;
+}
+
+/* Botão de fechar barra de navegação */
+.nav-bar-button-div {
+    float: left;
+    width: 60px;
+}
+
+.nav-bar-button {
+    padding: 0  5px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, rgba(0, 0, 10, 1), rgba(0, 0, 0, 0.95));
+    border: 1px solid #101010;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-bar-button:hover {
+    cursor: pointer;
+}
+
+#nav-button-image {
     width: 50%;
 }

@@ -1,4 +1,5 @@
 import './NavBar.css';
+import NavHide from '../../Functions/NavHide';
 
 function NavBar() {
 
@@ -23,8 +24,8 @@ function NavBar() {
     };
 
     return (
-        <div className = "nav-route">
-            <nav className = "navigation-bar">
+        <div className = "nav-page">
+            <nav className = "nav-bar closed">
                 <div className = "navigation-bar-max-width-1024px">
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
@@ -58,13 +59,9 @@ function NavBar() {
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
-                        <div className = "navigation-align-img-text">
-                            <div className = "navigation-bar-div-area" id = "navigation-bar-texts-div-enter">
-                                <a className = "nav-texts gray" id = "nav-text-enter" href = {oAuth}>
-                                    <img src="../images/img_discord.png" alt = "Entrar" className = "nav-icons" id="nav-bars-enter-discord-logo"/>Entrar
-                                </a>
-                            </div>
-                        </div>
+                        <a className = "navigation-align-img-text" id = "nav-enter-div" href = {oAuth}>
+                                <img src="../images/img_discord.png" alt = "Entrar" className = "nav-icons" id="nav-bars-enter-discord-logo"/>Entrar
+                        </a>
                     </div>
                 </div>
                 <div className = "navigation-bar-max-width-768px">
@@ -107,6 +104,11 @@ function NavBar() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className = "nav-bar-button-div">
+                    <button className = "nav-bar-button" onClick = {NavHide}>
+                        <img src="../images/nav/img_BarArrow(0).png" alt = "Início" id = "nav-button-image"/>
+                    </button>
                 </div>
             </nav>
         </div>

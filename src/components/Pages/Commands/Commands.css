@@ -1,20 +1,248 @@
+/* Página principal de comandos */
 .commands-page-main {
-    background-image: radial-gradient(ellipse at bottom, rgba(40, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.commands-categories {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
+    background-image: linear-gradient(180deg, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.moderation-commands-bars {
+/* Título da página de comandos */
+.commands-page-title {
+    color: #fff;
+    font-size: 20pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: auto;
+}
+
+/* Descrição da página de comandos*/
+.commands-page-description {
+    color:#d0d0d0;
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: auto;
+}
+
+/* Alinhar painel com comandos */
+.commands-board-flex {
+    width: 100%;
+    max-width: 80rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Painel de categorias */
+.categorie-board {
+    width: 25%;
+    height: 100%;
+    background-color: #303030;
+    border-radius: 10px;
+}
+
+/* Título do painel */
+.categories-text {
+    color: #fff;
+}
+
+/* Categoria com os botões */
+.categorie-board-buttons-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Botão das categorias */
+.categorie-buttons {
+    width: 90%;
+    height: 6vh;
+    background-color: #505050;
+    color: #fff;
+    padding: 0;
+    border: 0px solid transparent;
+    border-radius: 25px;
+    margin: 10px 0;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.categorie-buttons:hover {
+    cursor: pointer;
+    background-color: #404040;
+}
+
+.categorie-buttons.button-on {
+    box-shadow: -3px 3px #202020;
+}
+
+.categorie-buttons.button-on#categorie-button-0 {
+    background-color: #3030d0;
+}
+
+.categorie-buttons.button-on#categorie-button-1 {
+    background-color: #f0d000;
+}
+
+.categorie-buttons.button-on#categorie-button-2 {
+    background-color: #f0b000;
+}
+
+.categorie-buttons.button-on#categorie-button-3 {
+    background-color: #20a000;
+}
+
+.categorie-buttons.button-on#categorie-button-4 {
+    background-color: #ff5530;
+}
+
+.categorie-buttons.button-on#categorie-button-5 {
+    background-color: #dd50ff;
+}
+
+.categorie-buttons.button-on#categorie-button-6 {
+    background-color: #9910ee;
+}
+
+.categorie-buttons.button-on#categorie-button-7 {
+    background-color: #ee3060;
+}
+
+.categorie-buttons.button-on#categorie-button-8 {
+    background-color: #ccccdd;
+}
+
+/* Textos dos botões */
+.categorie-buttons-texts-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.categorie-buttons-texts {
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Div com contador de comandos nos botões */
+.categorie-commands-count {
+    color: #fff;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 0;
+    border-radius: 25px;
+}
+
+/* Painel de comandos */
+.commands-panel {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #303030;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* Alinhar cabeçalho e lista de comandos */
+.commands-panel-flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Cabeçalho do painel */
+.commands-panel-header {
+    width: 100%;
+    height: 10%;
+}
+
+/* Alinhar título e barra de pesquisa do cabeçalho */
+.commands-panel-header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Alinhar barra e botão de pesquisa */
+.commands-panel-header-search-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Barra de pesquisa */
+#commands-panel-header-search-input {
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #505050;
+    border-radius: 25px;
+}
+
+/*Botão de pesquisa */
+#commands-panel-header-search-button {
+    background-color: transparent;
+    border: 1px solid #505050;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+#commands-panel-header-search-button:hover {
+    cursor: pointer;
+    background-color: #3a3a3a;
+}
+
+/* Imagem do botão de pesquisa */
+#search-icon {
+    width: 20px;
+}
+
+/* Lista de comandos */
+.commands-panel-main {
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+/* Base da lista de comandos */
+.commands-panel-base {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Listas de comandos (categorias) */
+.commands-panels.panel-on {
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.commands-panels.panel-off {
+    display: none;
+}
+
+/* Barra de comando */
+.commands-bars {
     align-items: center;
     width: 100%;
     display: block;
@@ -23,7 +251,39 @@
     border-radius: 3%;
 }
 
-.close .moderation-commands-content {
+/* Títulos das barras de comando abertos*/
+.open .commands-titles-divs{
+    background-color: #151515;
+}
+
+/* Título dos comandos */
+.commands-titles-divs {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:#202020;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    margin: auto;
+}
+
+.commands-titles-divs:hover {
+    background-color: #151515;
+}
+
+/* Título dos comandos */
+.commands-titles {
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Conteúdo da barra de comando fechado */
+.close .commands-content {
     height: 0px;
     transition:height 1s ease-out;
     transform: scaleY(0);
@@ -31,51 +291,30 @@
     display: block;
 }
 
-.open .moderation-commands-content {
-    width: 100%;
+/* Conteúdo da barra de comando aberto */
+.open .commands-content {
+    width: 90%;
     background-color: #252525;
     color: #f0f0f0;
-    text-align: left;
-    padding: 20px;
-    margin: 0px 0px 10px 0px;
-    display: block;
-    transform: scaleY(1);
-    transform-origin: top;
-    /*transform: translate3d(0, -5px, 0);*/
-    transition: transform 0.2s ease-in-out;
-    box-sizing: border-box;
-}
-
-.open .moderation-commands-titles{
-    background-color: #151515;
-}
-
-.moderation-commands-titles {
-    width: 100%;
-    background-color:#202020;
-    color: #fff;
-    font-size: 10pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
-    text-align: left;
-    cursor: pointer;
-    padding: 3px 5px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    transition: all 0.4s;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 auto 10px auto;
+    transform: translateY(-7px);
+    transition: all 0.1s ease-in-out;
 }
 
-.moderation-commands-titles:hover {
-    background-color: #151515;
-}
-
-.moderation-titles {
+.text-decoration-underline-blue {
     text-decoration: underline;
     text-decoration-color: #3060ff;
     text-decoration-thickness: from-font;
 }
 
-.moderation-commands-titles span {
-    float: right;
-    font-size: 20px;
+.text-decoration-underline-yellow {
+    text-decoration: underline;
+    text-decoration-color: #f0d000;
+    text-decoration-thickness: from-font;
 }

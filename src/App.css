@@ -28,6 +28,26 @@ body {
     }
 }*/
 
+/* Classes globais */
+:root {
+    --font-color-white: #fff;
+    --font-color-gray: #303030;
+}
+
+.font-color-white {
+    color: var(--font-color-white);
+}
+
+.hr-color-gray {
+    border-width: 0;
+    height: 1px;
+    background-color: var(--font-color-gray);
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
 /* Width */
 ::-webkit-scrollbar {
     width: 10px;

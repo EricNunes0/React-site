@@ -1,0 +1,14 @@
+{
+    "cmds": {
+        "mod": {
+            "addrole": {
+                "description": "Adicione de 1 até 10 cargos em um usuários",
+                "aliases": ["a@addroles", "a@giverole", "a@giveroles", "a@roleadd", "a@rolesadd", "a@rolegive", "a@rolesgive"]
+            },
+            "ban": {
+                "description": "Bane até 5 membros do seu servidor",
+                "aliases": ["a@banir"]
+            }
+        }
+    }
+}
