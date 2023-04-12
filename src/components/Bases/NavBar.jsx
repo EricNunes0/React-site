@@ -25,7 +25,7 @@ function NavBar() {
 
     return (
         <div className = "nav-page">
-            <nav className = "nav-bar closed">
+            <nav className = "nav-bar opened">
                 <div className = "navigation-bar-max-width-1024px">
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">

@@ -31,17 +31,100 @@ body {
 /* Classes globais */
 :root {
     --font-color-white: #fff;
+    --font-color-gray-1: #d0d0d0;
+    --font-color-gray-2: #c0c0c0;
     --font-color-gray: #303030;
+    --font-color-categorie-0: #3060ff;
+    --font-color-categorie-1: #ffd000;
+    --font-color-categorie-2: #ffb000;
+    --font-color-categorie-3: #20a000;
+    --font-color-categorie-4: #ff5530;
+    --font-color-categorie-5: #dd50ff;
+    --font-color-categorie-6: #9910ee;
+    --font-color-categorie-7: #ee3060;
+    --font-color-categorie-8: #ccccdd;
 }
 
 .font-color-white {
     color: var(--font-color-white);
 }
 
+.fc-gray-1 {
+    color: var(--font-color-gray-1);
+}
+
+.fc-gray-2 {
+    color: var(--font-color-gray-2);
+}
+
+.fc-categorie-0 {
+    color: var(--font-color-categorie-0);
+}
+
+.fc-categorie-1 {
+    color: var(--font-color-categorie-1);
+}
+
+.fc-categorie-2 {
+    color: var(--font-color-categorie-2);
+}
+
+.fc-categorie-3 {
+    color: var(--font-color-categorie-3);
+}
+
+.fc-categorie-4 {
+    color: var(--font-color-categorie-4);
+}
+
+.fc-categorie-5 {
+    color: var(--font-color-categorie-5);
+}
+
+.fc-categorie-6 {
+    color: var(--font-color-categorie-6);
+}
+
+.fc-categorie-7 {
+    color: var(--font-color-categorie-7);
+}
+
+.fc-categorie-8 {
+    color: var(--font-color-categorie-8);
+}
+
+.fm-segoi {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ta-justify {
+    text-align: justify;
+}
+
 .hr-color-gray {
     border-width: 0;
     height: 1px;
     background-color: var(--font-color-gray);
+}
+
+.hr-height-3px {
+    border-width: 0;
+    height: 3px;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .pointer-events-none {
