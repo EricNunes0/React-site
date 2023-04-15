@@ -1,3 +1,7 @@
+const categorieNames = [
+    "Moderação", "Diversão", "Ações", "Utilidades", "Photoshop", "Diversos", "Economia", "Social", "Configuração"
+]
+
 function OpenPanel({cat}) {
     const panels = document.getElementsByClassName('commands-panels');
     for(let i = 0; i <= panels.length - 1; i++) {
@@ -19,6 +23,7 @@ function OpenPanel({cat}) {
             buttons[i].className = `categorie-buttons button-off`;
         } 
     }
+    let headerTitle = document.getElementById('commands-panel-header-title').innerHTML = `${categorieNames[cat]}`;
 }
 
 export default OpenPanel;

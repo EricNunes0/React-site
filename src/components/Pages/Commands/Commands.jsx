@@ -5,8 +5,6 @@ import OpenPanel from '../../../Functions/OpenPanel';
 
 function commands() {
     const prefix = "a@";
-    //const moderationCmds = cmds.cmds.mod;
-    const categorieName = "Moderação";
     return (
         <div className = "commands-page">
             <div className = "commands-page-main">
@@ -99,7 +97,7 @@ function commands() {
                             <div className = "commands-panel-header">
                                 <div className = "commands-panel-header-flex">
                                     <div className = "commands-panel-header-title-div">
-                                        <h2 className = "commands-panel-header-title font-color-white">Comandos de {categorieName}</h2>
+                                        <h1 className = "commands-panel-header-titles font-color-white" id = "commands-panel-header-title">Moderação</h1>
                                     </div>
                                     <div className = "commands-panel-header-search-div">
                                         <input id = "commands-panel-header-search-input" type = "text" placeholder = "Pesquise um comando" maxLength = {20}></input>
