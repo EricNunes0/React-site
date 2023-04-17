@@ -1,0 +1,25 @@
+/* Barra de navegação do dashboard */
+.dashboard-nav {
+    display: block;
+    background-color: black;
+    height: 10vh;
+}
+
+/* Alinhar ícone e nome do usuário */
+.dashboard-nav-flex {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Ícones de usuário */
+.user-icons {
+    width: 40px;
+}
+
+/* Nomes de usuário */
+.user-names {
+    color: #fff;
+}

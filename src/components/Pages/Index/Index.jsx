@@ -1,5 +1,4 @@
 import './Index.css';
-import OpenPanel from '../../../Functions/OpenPanel';
 
 function Index() {
     const inviteLink = "https://discord.com/api/oauth2/authorize?client_id=911002921594925056&permissions=1533236608247&scope=bot";
@@ -72,7 +71,7 @@ function Index() {
                             </div>
                             <div className = "introduction-texts-board">
                                 <div>
-                                    <h2 className = "introduction-texts" id = "introduction-title">Meus comandos</h2>
+                                    <h2 className = "introduction-texts" id = "introduction-commands-title">Meus comandos</h2>
                                     <div className = "introduction-title-lines">
                                         <img id = "introduction-title-red-line" src = "../../images/img_Bar(0).png" alt = "red-line"></img>
                                     </div>
@@ -90,7 +89,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-0">Moderação</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-0">Moderação</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
@@ -108,7 +107,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-1">Diversão</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-1">Diversão</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
@@ -126,7 +125,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-2">Ações</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-2">Ações</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
@@ -144,7 +143,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-3">Utilidades</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-3">Utilidades</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
@@ -162,7 +161,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-4">Photoshop</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-4">Photoshop</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
@@ -180,7 +179,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-5">Diversos</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-5">Diversos</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
@@ -198,7 +197,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-6">Economia</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-6">Economia</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
@@ -216,7 +215,7 @@ function Index() {
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
-                                                    <h3 className = "categorie-titles fc-categorie-7">Social</h3>
+                                                    <h3 className = "categorie-titles font-color-white fd-underline-7">Social</h3>
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">

@@ -1,10 +1,10 @@
 import './NavBar.css';
 import NavHide from '../../Functions/NavHide';
+import config from '../../config.json';
 
 function NavBar() {
-
-    let oAuth = "https://discord.com/api/oauth2/authorize?client_id=911002921594925056&redirect_uri=http%3A%2F%2Flocalhost%3A3001&response_type=code&scope=identify";
-
+    const oAuth = config.oAuthURL;
+    const inviteLink = config.inviteLink;
     function menuInteraction() {
         let menus = document.getElementsByClassName('navigation-menu-div');
         for(let i = 0; i <= menus.length - 1; i++) {
@@ -30,9 +30,6 @@ function NavBar() {
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
                             <a className = "nav-texts red" id = "nav-text-1" href = "/">
-                                <div>
-                                    <img src="../images/img_icon(0).png" alt = "Início" className = "nav-icons" id="nav-icon-main"/>
-                                </div>
                                 Início
                             </a>
                         </div>
@@ -40,27 +37,27 @@ function NavBar() {
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
                             <a className = "nav-texts red" id = "nav-text-2" href = "/about">
-                                <img src="../images/img_icon(1).png" alt = "Sobre" className = "nav-icons" id="nav-icon-about"/>Sobre
+                                Sobre
                             </a>
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
                             <a className = "nav-texts red" id = "nav-text-3" href = "/Commands">
-                                <img src="../images/img_icon(2).png" alt = "Comandos" className = "nav-icons" id="nav-icon-commands"/>Comandos
+                                Comandos
                             </a>
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
                             <a className = "nav-texts red" id = "nav-text-4" href = "/support">
-                                <img src="../images/img_icon(3).png" alt = "Suporte" className = "nav-icons" id="nav-icon-commands"/>Suporte
+                                Suporte
                             </a>
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
-                        <a className = "navigation-align-img-text" id = "nav-enter-div" href = {oAuth}>
-                                <img src="../images/img_discord.png" alt = "Entrar" className = "nav-icons" id="nav-bars-enter-discord-logo"/>Entrar
+                        <a className = "nav-texts red" id = "nav-text-4" href = {inviteLink}>
+                            Adicionar
                         </a>
                     </div>
                 </div>
@@ -86,7 +83,7 @@ function NavBar() {
                                 </div>
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
-                                        <a className = "nav-texts red" id = "nav-text-3" href = "/Commands">Comandos</a>
+                                        <a className = "nav-texts red" id = "nav-text-3" href = "/commands">Comandos</a>
                                     </div>
                                 </div>
                                 <div className = "navigation-bar-texts-div">
@@ -97,7 +94,7 @@ function NavBar() {
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
                                         <div className = "navigation-bar-div-area" id = "navigation-bar-texts-div-enter">
-                                            <a className = "nav-texts gray" id = "nav-text-enter" href = "/enter">Entrar</a>
+                                            <a className = "nav-texts gray" id = "nav-text-enter" href = {inviteLink}>Adicionar</a>
                                         </div>
                                     </div>
                                 </div>

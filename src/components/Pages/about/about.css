@@ -89,3 +89,13 @@
 }
 
 /* Board da sessão de sobre */
+
+/* Div da imagem da sessão sobre */
+.about-image-div {
+    margin: 5%;
+}
+
+/* Div de textos da sessão sobre */
+.about-texts-div {
+    margin: 5%;
+}

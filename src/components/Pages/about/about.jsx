@@ -25,10 +25,10 @@ function About() {
                                 </div>
                                 <div className = "about-texts-div">
                                     <div className = "about-title">
-                                        <h1 className = "font-color-white">Olá, eu sou o Janny</h1>
+                                        <h1 className = "font-color-white">Olá, eu sou o Janny!</h1>
                                     </div>
                                     <div className = "about-description">
-                                        <p>Eu sou um bot multifuncionalidades desenvolvido para o Discord</p>
+                                        <p>Eu sou um bot multifuncionalidades desenvolvido para o Discord, com o intuito de entreter sua comunidade e engajar seus membros!</p>
                                     </div>
                                 </div>
                             </div>

@@ -1,0 +1,4 @@
+{
+    "oAuthURL": "https://discord.com/api/oauth2/authorize?client_id=911002921594925056&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fdashboard&response_type=token&scope=identify",
+    "inviteLink": "https://discord.com/api/oauth2/authorize?client_id=911002921594925056&permissions=1533236608247&scope=bot"
+}

@@ -23,7 +23,7 @@ function OpenPanel({cat}) {
             buttons[i].className = `categorie-buttons button-off`;
         } 
     }
-    let headerTitle = document.getElementById('commands-panel-header-title').innerHTML = `${categorieNames[cat]}`;
+    document.getElementById('commands-panel-header-title').innerHTML = `${categorieNames[cat]}`;
 }
 
 export default OpenPanel;
