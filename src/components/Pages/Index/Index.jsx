@@ -11,7 +11,7 @@ function Index() {
                     </div>
                     <div className = "main-div-container-divs" id = "main-div-container-infos">
                         <div className = "main-div-container-informations" id = "main-div-container-logo">
-                            <img id = "janny-logo-image" src = "../images/img_JannyLogo.png" alt = "Janny Logo"></img>
+                            <img id = "janny-logo-image" src = "https://i.imgur.com/vcMIIBM.png" alt = "Janny Logo"></img>
                         </div>
                         <div className = "main-div-container-informations" id = "main-div-container-buttons">
                             <div className = "main-div-buttons" id = "invite-button-div">

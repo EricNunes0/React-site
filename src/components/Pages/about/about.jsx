@@ -9,7 +9,7 @@ function About() {
                         <div className = "about-main-texts-image-flex">
                             <div className = "about-texts-flex">            
                                 <div className = "about-logo-div">
-                                    <img src = "../../images/img_JannyLogo(1).png" alt = "aboutLogo" id = "about-logo-image"></img>
+                                    <img src = "https://i.imgur.com/9MMJ9DE.png" alt = "aboutLogo" id = "about-logo-image"></img>
                                 </div>
                                 <div className = "about-description-div">
                                     <h3 className = "about-description">Estou aqui para divertir o seu servidor e engajar sua comunidade!</h3>
