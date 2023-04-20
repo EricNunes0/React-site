@@ -18,7 +18,7 @@
     align-items: center;
     background-clip: content-box;
     -moz-background-clip: content-box;
-    background-image: url("../../../images/img_Cenary\(0\).png");
+    background-image: url("https://i.imgur.com/96ApQDv.png");
     background-position: center;
     background-size: cover;
     background-clip: content-box;
@@ -61,7 +61,7 @@
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0, 0, 1, 1);
     animation-iteration-count: infinite;
-    background-image: url("../../../images/img_JannyCoins.png");
+    background-image: url("https://i.imgur.com/82ozVEK.png");
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
