@@ -65,7 +65,7 @@ function NavBar() {
                     <div className = "navigation-menu">
                         <div id = "navigation-bar-button"  onClick = {menuInteraction}>
                             <div>
-                                <img src = "../images/img_BarMenuIcon.png" alt = "BarMenuIcon" id = "navigation-bar-menu-icon"></img>
+                                <img src = "src\images\img_BarMenuIcon.png" alt = "BarMenuIcon" id = "navigation-bar-menu-icon"></img>
                             </div>
                         </div>
                         <div>
