@@ -1,0 +1,26 @@
+/* Div principal da página de 404 */
+.not-found-div {
+    height: 100vh;
+    background-color: #d0d0d0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texto 404 */
+.not-found-404 {
+    margin: 0;
+    font-size: 50pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Informações 404 */
+.not-fount-texts {
+    color: #000;
+}
+
+/* Redirecionar */
+.not-fount-redirect {
+    color: #2090ff;
+}

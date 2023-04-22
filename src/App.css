@@ -97,54 +97,63 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-0);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-0) 0px 0px 3px;
 }
 
 .fd-underline-1 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-1);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-1) 0px 0px 3px;
 }
 
 .fd-underline-2 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-2);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-2) 0px 0px 3px;
 }
 
 .fd-underline-3 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-3);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-3) 0px 0px 3px;
 }
 
 .fd-underline-4 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-4);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-4) 0px 0px 3px;
 }
 
 .fd-underline-5 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-5);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-5) 0px 0px 3px;
 }
 
 .fd-underline-6 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-6);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-6) 0px 0px 3px;
 }
 
 .fd-underline-7 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-7);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-7) 0px 0px 3px;
 }
 
 .fd-underline-8 {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-8);
     text-decoration-thickness: from-font;
+    text-shadow: var(--font-color-categorie-8) 0px 0px 3px;
 }
 
 .bs-categorie-0 {
@@ -191,7 +200,7 @@ body {
 
 /* Width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
     background-color: #101010;
 }
   

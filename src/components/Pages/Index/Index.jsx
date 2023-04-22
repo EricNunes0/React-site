@@ -11,7 +11,7 @@ function Index() {
                     </div>
                     <div className = "main-div-container-divs" id = "main-div-container-infos">
                         <div className = "main-div-container-informations" id = "main-div-container-logo">
-                            <img id = "janny-logo-image" src = "https://i.imgur.com/vcMIIBM.png" alt = "Janny Logo"></img>
+                            <img id = "janny-logo-image" src = "https://i.imgur.com/gkMNnA5.png" alt = "Janny Logo"></img>
                         </div>
                         <div className = "main-div-container-informations" id = "main-div-container-buttons">
                             <div className = "main-div-buttons" id = "invite-button-div">
@@ -28,7 +28,7 @@ function Index() {
                     </div>
                 </div>
                 <div>
-                    <img src = "../../images/img_arrow(0).png" alt = "arrow" id = "arrow"></img>
+                    <img src = "https://i.imgur.com/t9PB6Dv.png" alt = "arrow" id = "arrow"></img>
                 </div>
             </div>
             <div className = "introduction-main-div">
@@ -43,7 +43,7 @@ function Index() {
                                 <div>
                                     <h2 className = "introduction-texts" id = "introduction-title">E aí, eu sou o <a href = "https://discordapp.com/users/911002921594925056" target = "_blank" rel="noreferrer" id = "janny-span">Janny</a>!</h2>
                                     <div className = "introduction-title-lines">
-                                        <img id = "introduction-title-red-line" src = "../../images/img_Bar(0).png" alt = "red-line"></img>
+                                        <img id = "introduction-title-red-line" src = "https://i.imgur.com/dZpLKrm.png" alt = "red-line"></img>
                                     </div>
                                 </div>
                                 <div>
@@ -58,7 +58,7 @@ function Index() {
                                 <div>
                                     <h2 className = "introduction-texts" id = "introduction-title">Quem sou eu?</h2>
                                     <div className = "introduction-title-lines">
-                                        <img id = "introduction-title-red-line" src = "../../images/img_Bar(0).png" alt = "red-line"></img>
+                                        <img id = "introduction-title-red-line" src = "https://i.imgur.com/dZpLKrm.png" alt = "red-line"></img>
                                     </div>
                                 </div>
                                 <div>
@@ -73,7 +73,7 @@ function Index() {
                                 <div>
                                     <h2 className = "introduction-texts" id = "introduction-commands-title">Meus comandos</h2>
                                     <div className = "introduction-title-lines">
-                                        <img id = "introduction-title-red-line" src = "../../images/img_Bar(0).png" alt = "red-line"></img>
+                                        <img id = "introduction-title-red-line" src = "https://i.imgur.com/dZpLKrm.png" alt = "red-line"></img>
                                     </div>
                                 </div>
                                 <div>
@@ -85,7 +85,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(0).png" alt = "ModIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/Tyjyk3q.png" alt = "ModIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -93,7 +93,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Aqui temos comandos para ajudar você a moderar seu servidor com mais praticidade!</p>
+                                                <p className = "categorie-descriptions ta-justify">Aqui temos comandos para ajudar você a moderar seu servidor com mais praticidade!</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-0">Ver comandos</button></a>
@@ -103,7 +103,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(1).png" alt = "FunIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/V3THGCm.png" alt = "FunIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -111,7 +111,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Comandos para você se divertir com os seus amigos. Hackeie seus amigos, veja o tamanho da sua banana, crie ships, jogue minigames e muito mais!</p>
+                                                <p className = "categorie-descriptions ta-justify fc-gray-2">Comandos para você se divertir com os seus amigos. Hackeie seus amigos, veja o tamanho da sua banana, crie ships, jogue minigames e muito mais!</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-1">Ver comandos</button></a>
@@ -121,7 +121,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(2).png" alt = "ActIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/avYyH4y.png" alt = "ActIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -129,7 +129,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Interaja com seus amigos usando as mais variadas ações. Mostre que está feliz ou triste, dance com seus amigos, ataque seus inimigos {'>:)'}, e muito mais em 20 ações!</p>
+                                                <p className = "categorie-descriptions ta-justify fc-gray-2">Interaja com seus amigos usando as mais variadas ações. Mostre que está feliz ou triste, dance com seus amigos, ataque seus inimigos {'>:)'}, e muito mais em 20 ações!</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-2">Ver comandos</button></a>
@@ -139,7 +139,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(3).png" alt = "ActIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/zi1dADr.png" alt = "UtilIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -147,7 +147,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Traduza textos em outros idiomas, role dados, faça contas, pesquise por imagens e letras de músicas, veja informações sobre seu servidor, canal e usuários. Tudo e mais um pouco!</p>
+                                                <p className = "categorie-descriptions ta-justify fc-gray-2">Traduza textos em outros idiomas, role dados, faça contas, pesquise por imagens e letras de músicas, veja informações sobre seu servidor, canal e usuários. Tudo e mais um pouco!</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-3">Ver comandos</button></a>
@@ -157,7 +157,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(4).png" alt = "PsIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/7dIisbo.png" alt = "PsIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -165,7 +165,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Crie memes, customize o seu avatar e crie montagens engraçadas com seus amigos!</p>
+                                                <p className = "categorie-descriptions ta-justify fc-gray-2">Crie memes, customize o seu avatar e crie montagens engraçadas com seus amigos!</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-4">Ver comandos</button></a>
@@ -175,7 +175,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(5).png" alt = "PsIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/rcwIksr.png" alt = "MiscIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -183,7 +183,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Comandos extras para você que quer saber um pouco mais sobre mim e como funciono, quer reportar algum problema ou sugerir funcionalidades novas.</p>
+                                                <p className = "categorie-descriptions ta-justify fc-gray-2">Comandos extras para você que quer saber um pouco mais sobre mim e como funciono, quer reportar algum problema ou sugerir funcionalidades novas.</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-5">Ver comandos</button></a>
@@ -193,7 +193,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(6).png" alt = "PsIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/A9AkAO2.png" alt = "EcoIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -201,7 +201,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Confira meu próprio sistema de economia e junte o máximo de moedas que puder. Aposte em minigames como blackjack, cara ou coroa, dados, corridas, e muito mais!</p>
+                                                <p className = "categorie-descriptions ta-justify fc-gray-2">Confira meu próprio sistema de economia e junte o máximo de moedas que puder. Aposte em minigames como blackjack, cara ou coroa, dados, corridas, e muito mais!</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-6">Ver comandos</button></a>
@@ -211,7 +211,7 @@ function Index() {
                                             <div className = "display-flex-row">
                                                 <section className = "categorie-image-section">
                                                     <div className = "categorie-icons">
-                                                        <img src = "../../images/img_CatIcon(7).png" alt = "SocIcon" className = "index-icons"></img>
+                                                        <img src = "https://i.imgur.com/uhAKy3d.png" alt = "SocIcon" className = "index-icons"></img>
                                                     </div>
                                                 </section>
                                                 <section className = "categorie-title-section">
@@ -219,7 +219,7 @@ function Index() {
                                                 </section>
                                             </div>
                                             <section className = "categorie-description-section">
-                                                <p className = "ta-justify fc-gray-2">Crie e customize seu próprio perfil com cenários, layouts, gênero e muito mais!</p>
+                                                <p className = "categorie-descriptions ta-justify fc-gray-2">Crie e customize seu próprio perfil com cenários, layouts, gênero e muito mais!</p>
                                             </section>
                                             <section className = "categorie-button-section">
                                                 <a href = "/commands"><button className = "index-categorie-buttons" id = "cat-button-7">Ver comandos</button></a>
@@ -236,7 +236,7 @@ function Index() {
                                 <div>
                                     <h2 className = "introduction-texts" id = "introduction-title">Me adicione no seu servidor</h2>
                                     <div className = "introduction-title-lines">
-                                        <img id = "introduction-title-red-line" src = "../../images/img_Bar(0).png" alt = "red-line"></img>
+                                        <img id = "introduction-title-red-line" src = "https://i.imgur.com/dZpLKrm.png" alt = "red-line"></img>
                                     </div>
                                 </div>
                                 <div>

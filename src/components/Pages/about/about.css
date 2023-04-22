@@ -81,11 +81,13 @@
 
 /* Sessão de sobre */
 .about-section {
-    background-color: #303030;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    background-color: rgba(10, 10, 20, 1);
+    background-image: url("https://i.imgur.com/aa1w855.png");
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 /* Board da sessão de sobre */

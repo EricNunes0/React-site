@@ -1,31 +1,41 @@
+/* Configurações/variáveis da barra de navegação */
+:root {
+    --nav-bar-height: 75px; /* Altura da barra de navegação */
+}
+
 /* Barra de navegação */
 .nav-bar {
-    top: 0px;
+    width: 100%;
+    height: var(--nav-bar-height);
     position: fixed;
     z-index: 1;
-    width: 100%;
-    height: 75px;
     background-image: linear-gradient(90deg, rgba(0, 0, 10, 1), rgba(0, 0, 0, 0.95));
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 15px;
     transition: all 0.3s;
     transition-timing-function: ease-in-out;
 }
 
 /* Barra de navegação desativada */
-
 .nav-bar.closed {
-    opacity: 0.7;
-    transform: translateY(-75px);
+    opacity: 0.8;
+    transform: translateY(calc(var(--nav-bar-height) * -1));
+}
+
+/* Barra de navegação (Maior que 768px e menor que 1024px) */
+.navigation-bar-max-width-1024px {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Barra de navegação (Menor que 768px) */
+.navigation-bar-max-width-768px {
+    height: 100%;
 }
 
 /*Maior que 768px e menor que 1024px*/
 @media screen and (min-width: 769px)/* and (max-width: 1024px)*/ {
-    .navigation-bar-max-width-1024px {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-    }
-
     .navigation-bar-texts-div {
         width: 15%;
         height: 100%;
@@ -39,13 +49,24 @@
     }
 }
 
+/*Maior que 480px e menor que 768px*/
+@media screen and /*(min-width: 480px) and*/ (max-width: 768px) {
+    .navigation-bar-max-width-1024px {
+        display: none;
+    }
+
+    .navigation-bar-texts-div {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .navigation-align-img-text {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 #nav-enter-div {
@@ -66,7 +87,7 @@
 }
 
 .nav-texts {
-    width: 60%;
+    width: 100%;
     height: 100%;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -125,30 +146,9 @@
     justify-content: center;
 }
 
-/*Maior que 480px e menor que 768px*/
-@media screen and /*(min-width: 480px) and*/ (max-width: 768px) {
-    .navigation-bar-max-width-1024px {
-        display: none;
-    }
-
-    .navigation-bar-texts-div {
-        padding: 10px 0;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .navigation-bar-max-width-768px {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        height: 100%;
-    }
-}
-
+/* Menu de navegação */
 .navigation-menu {
+    height: var(--nav-bar-height);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,8 +156,11 @@
 }
 
 .navigation-menu-div {
-    border: 1px solid #3050e0;
+    width: 30%;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.8);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .navigation-menu-div.closed {
@@ -178,7 +181,12 @@
 }
 
 #navigation-bar-button {
-    padding: 2.6vh;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     transition: background-color 0.3s;
 }
 
@@ -188,34 +196,37 @@
 }
 
 #navigation-bar-button#open {
-    padding: 2.6vh;
     transition: background-color 0.3s;
 }
 
 #navigation-bar-menu-icon {
+    width: 30px;
     cursor: pointer;
-    width: 50%;
 }
 
-/* Botão de fechar barra de navegação */
+/* Div do botão de fechar barra de navegação */
 .nav-bar-button-div {
     float: left;
     width: 60px;
 }
 
+/* Botão da barra de navegação */
 .nav-bar-button {
-    padding: 0  5px;
+    width: 60px;
+    height: 20px;
     background-color: transparent;
     background-image: linear-gradient(90deg, rgba(0, 0, 10, 1), rgba(0, 0, 0, 0.95));
-    border: 0px solid #101010;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-width: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 15px;
 }
 
 .nav-bar-button:hover {
     cursor: pointer;
 }
 
+/* Imagem do botão de abrir/fechar barra de navegação */
 #nav-button-image {
-    width: 50%;
+    width: 18px;
 }

@@ -6,7 +6,7 @@ function Dashboard() {
     return (
         <div className = "dashboard-page">
             <div className = "dashboard-main">
-                <div className = "dashboard-nav-div">
+                <div className = "dashboard-nav-div" id = "dnd">
                     <nav className = "dashboard-nav">
                         <div className = "dashboard-nav-flex">
                             <div className = "dashboard-user-icon-div">

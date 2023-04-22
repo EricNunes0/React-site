@@ -10,7 +10,6 @@ function FooterBar() {
                     <div className = "footerDivs" id = "createdBy">
                         <ul className="footer-texts" id="footer-main-div-text-tag">
                             <li className = "font-color-white">Criado por <br></br><a href="https://github.com/EricNunes0" target="_blank" rel="noreferrer">Eric2605#9133</a></li>
-                            <li className = "font-color-white">Versão 1.0.22</li>
                         </ul>
                     </div>
                     <div className = "footerDivs">

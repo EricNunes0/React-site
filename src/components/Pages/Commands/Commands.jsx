@@ -1,4 +1,4 @@
-import './Commands.css';
+import './commands.css';
 //import cmds from '../../../Functions/Commands.json';
 import CommandBarsActive from '../../../Functions/CommandBarsActive';
 import OpenPanel from '../../../Functions/OpenPanel';
@@ -102,7 +102,7 @@ function commands() {
                                     <div className = "commands-panel-header-search-div">
                                         <input id = "commands-panel-header-search-input" type = "text" placeholder = "Pesquise um comando" maxLength = {20}></input>
                                         <button id = "commands-panel-header-search-button" type = "button" value = "o">
-                                            <img className = "pointer-events-none" src = "../../images/commands/img_SearchIcon(0).png" alt = "searchIcon" id = "search-icon"></img>
+                                            <img className = "pointer-events-none" src = "https://i.imgur.com/YAqIGw3.png" alt = "searchIcon" id = "search-icon"></img>
                                         </button>
                                     </div>
                                 </div>
@@ -844,7 +844,7 @@ function commands() {
                                                         <h4 className = "fc-gray-1 margin-bottom-0">Sinônimos</h4>
                                                     </div>
                                                     <div className = "aliases-list-div">
-                                                        <p className = "fc-gray-2">{prefix}banir, {prefix}banmember, {prefix}banuser, {prefix}banido</p>
+                                                        <p className = "fc-gray-2">{prefix}delrole, {prefix}dr, {prefix}roledelete, {prefix}roledel, {prefix}deletarcargo</p>
                                                     </div>
                                                 </div>
                                                 <hr className = "hr-color-gray"></hr>
@@ -853,7 +853,7 @@ function commands() {
                                                         <h4 className = "fc-gray-1 margin-bottom-0">Como usar</h4>
                                                     </div>
                                                     <div className = "use-div">
-                                                        <p className = "fc-gray-2">{prefix}ban {'<@usuário(s)>'} {'(motivo opcional)'}</p>
+                                                        <p className = "fc-gray-2">{prefix}deleterole {'<@cargo(s)>'}</p>
                                                     </div>
                                                 </div>
                                                 <hr className = "hr-color-gray"></hr>
@@ -862,7 +862,7 @@ function commands() {
                                                         <h4 className = "fc-gray-1">Exemplo</h4>
                                                     </div>
                                                     <div className = "example-div">
-                                                        <img src = "https://i.imgur.com/onxyADJ.gif" className = "example-image" id = "ban" alt = "ban"></img>
+                                                        <img src = "https://i.imgur.com/oVUhAAY.gif" className = "example-image" id = "deleterole" alt = "deleterole"></img>
                                                     </div>
                                                 </div>
                                                 <hr className = "hr-color-gray"></hr>
@@ -877,7 +877,7 @@ function commands() {
                                                                     <h4 className = "permissions-bot-title fc-gray-2">Permissões do bot</h4>
                                                                 </div>
                                                                 <div className = "permissions-bot-bars-div">
-                                                                    <button className = "permissions-buttons font-color-white">BANIR MEMBROS</button>
+                                                                    <button className = "permissions-buttons font-color-white">GERENCIAR CARGOS</button>
                                                                 </div>
                                                             </div>
                                                             <div className = "permissions-user">
@@ -885,7 +885,7 @@ function commands() {
                                                                     <h4 className = "permissions-user-title fc-gray-2">Permissões do usuário</h4>
                                                                 </div>
                                                                 <div className = "permissions-user-bars-div">
-                                                                    <button className = "permissions-buttons font-color-white">BANIR MEMBROS</button>
+                                                                    <button className = "permissions-buttons font-color-white">GERENCIAR CARGOS</button>
                                                                 </div>
                                                             </div>
                                                         </div>

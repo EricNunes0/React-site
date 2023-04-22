@@ -65,11 +65,14 @@ function NavBar() {
                     <div className = "navigation-menu">
                         <div id = "navigation-bar-button"  onClick = {menuInteraction}>
                             <div>
-                                <img src = "src\images\img_BarMenuIcon.png" alt = "BarMenuIcon" id = "navigation-bar-menu-icon"></img>
+                                <img src = "https://i.imgur.com/PduipVM.png" alt = "BarMenuIcon" id = "navigation-bar-menu-icon"></img>
                             </div>
                         </div>
                         <div>
-                            <div className = "navigation-menu-div closed">
+                            
+                        </div>
+                    </div>
+                    <div className = "navigation-menu-div closed">
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
                                         <a className = "nav-texts red" id = "nav-text-1" href = "/">Início
@@ -93,18 +96,14 @@ function NavBar() {
                                 </div>
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
-                                        <div className = "navigation-bar-div-area" id = "navigation-bar-texts-div-enter">
-                                            <a className = "nav-texts gray" id = "nav-text-enter" href = {inviteLink}>Adicionar</a>
-                                        </div>
+                                        <a className = "nav-texts gray" id = "nav-text-enter" href = {inviteLink}>Adicionar</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
                 </div>
                 <div className = "nav-bar-button-div">
                     <button className = "nav-bar-button" onClick = {NavHide}>
-                        <img src="../images/nav/img_BarArrow(0).png" alt = "Início" id = "nav-button-image"/>
+                        <img src = "https://i.imgur.com/cb7E2P8.png" alt = "Início" id = "nav-button-image"/>
                     </button>
                 </div>
             </nav>
