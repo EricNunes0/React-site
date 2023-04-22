@@ -1,4 +1,4 @@
-import './commands.css';
+import './Commands.css';
 //import cmds from '../../../Functions/Commands.json';
 import CommandBarsActive from '../../../Functions/CommandBarsActive';
 import OpenPanel from '../../../Functions/OpenPanel';
