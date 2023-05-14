@@ -8,8 +8,10 @@ function commands() {
     return (
         <div className = "commands-page">
             <div className = "commands-page-main">
-                <h1 className = "commands-page-title">Comandos do Janny</h1>
-                <h3 className = "commands-page-description">Atualmente eu possuo 167 comandos com as mais variadas funções.<br></br>Para facilitar sua vida, os comandos são divididos nas 9 categorias listadas abaixo:</h3>
+                <div className = "commands-page-main-texts">
+                    <h1 className = "commands-page-title">Comandos do Janny</h1>
+                    <h3 className = "commands-page-description">Atualmente eu possuo 171 comandos com as mais variadas funções.<br></br>Para facilitar sua vida, os comandos são divididos nas 9 categorias listadas abaixo:</h3>
+                </div>
                 <div className = "commands-board-flex">
                     <div className = "categorie-board">
                         <div className = "categorie-board-flex">

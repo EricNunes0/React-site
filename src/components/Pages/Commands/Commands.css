@@ -8,6 +8,11 @@
     justify-content: center;
 }
 
+/* Div dos textos da página de comandos */
+.commands-page-main-texts {
+    margin: 80px auto 0px auto;
+}
+
 /* Título da página de comandos */
 .commands-page-title {
     color: #fff;
@@ -35,6 +40,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin: 30px auto;
 }
 
 /* Painel de categorias */
@@ -43,6 +49,7 @@
     height: 100%;
     background-color: #202020;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
 /* Título do painel */
@@ -65,7 +72,7 @@
     color: #fff;
     padding: 0;
     border: 0px solid transparent;
-    border-radius: 25px;
+    border-radius: 5px;
     margin: 10px 0;
     font-size: 12pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -120,11 +127,12 @@
 
 /* Textos dos botões */
 .categorie-buttons-texts-div {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
 }
 
 .categorie-buttons-texts {
@@ -152,6 +160,7 @@
     background-color: #202020;
     justify-content: center;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
 }
 
 /* Alinhar cabeçalho e lista de comandos */
@@ -178,6 +187,11 @@
     justify-content: space-around;
 }
 
+/* Título da aba de comandos */
+.commands-panel-header-titles {
+    font-size: 20pt;
+}
+
 /* Alinhar barra e botão de pesquisa */
 .commands-panel-header-search-div {
     display: flex;
@@ -189,16 +203,19 @@
 /* Barra de pesquisa */
 #commands-panel-header-search-input {
     background-color: transparent;
+    color: #fff;
+    font-size: 12pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 5px 10px;
-    border: 3px solid #505050;
-    border-radius: 25px;
+    border: 1px solid #505050;
+    border-radius: 10px;
 }
 
 /*Botão de pesquisa */
 #commands-panel-header-search-button {
     background-color: transparent;
-    border: 3px solid #505050;
-    border-radius: 25px;
+    border: 1px solid #505050;
+    border-radius: 10px;
     transition: all 0.3s;
 }
 
@@ -209,7 +226,8 @@
 
 /* Imagem do botão de pesquisa */
 #search-icon {
-    width: 20px;
+    width: 24px;
+    filter: invert(0.5);
 }
 
 /* Lista de comandos */
