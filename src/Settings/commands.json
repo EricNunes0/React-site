@@ -1,0 +1,249 @@
+{
+    "prefix": "a@",
+    "categories": [
+        {
+            "id": 0,
+            "letter": "M",
+            "ptName": "Moderação",
+            "enName": "Moderation",
+            "commands": [
+                {
+                    "id": 0,
+                    "ptName": "addrole",
+                    "enName": "addrole",
+                    "ptDescription": "Adicione de 1 até 10 cargos em um usuário",
+                    "enDescription": "Add 1 to 10 roles on a user",
+                    "aliases": ["addroles", "giverole", "giveroles", "roleadd", "rolesadd", "rolegive", "rolesgive"],
+                    "ptHowToUse": "addrole <@usuário> <#cargos>",
+                    "enHowToUse": "addrole <@user> <#roles>",
+                    "image": "https://i.imgur.com/IHmNFDM.gif",
+                    "ptBotPermissions": ["Gerenciar cargos"],
+                    "ptUserPermissions": ["Gerenciar cargos"],
+                    "enBotPermissions": ["Manage roles"],
+                    "enUserPermissions": ["Manage roles"]
+                },
+                {
+                    "id": 1,
+                    "ptName": "ban",
+                    "enName": "ban",
+                    "ptDescription": "Aplique um banimento em até 5 usuários",
+                    "enDescription": "Ban 1 to 5 users",
+                    "aliases": ["banir", "banmember", "banuser", "banido"],
+                    "ptHowToUse": "ban <@usuário(s)> (motivo opcional)",
+                    "enHowToUse": "ban <@user(s)> (optional reason)",
+                    "image": "https://i.imgur.com/onxyADJ.gif",
+                    "ptBotPermissions": ["Banir membros"],
+                    "ptUserPermissions": ["Banir membros"],
+                    "enBotPermissions": ["Ban members"],
+                    "enUserPermissions": ["Ban members"]
+                },
+                {
+                    "id": 2,
+                    "ptName": "banlist",
+                    "enName": "banlist",
+                    "ptDescription": "Veja a lista de banimentos do servidor",
+                    "enDescription": "See the list of bans on your server",
+                    "aliases": ["listban", "banslist", "listbans", "banlista", "listaban", "banslista", "listabans"],
+                    "ptHowToUse": "banlist",
+                    "enHowToUse": "banlist",
+                    "image": null,
+                    "ptBotPermissions": ["Banir membros"],
+                    "ptUserPermissions": ["Banir membros"],
+                    "enBotPermissions": ["Ban members"],
+                    "enUserPermissions": ["Ban members"]
+                },
+                {
+                    "id": 3,
+                    "ptName": "checkban",
+                    "enName": "checkban",
+                    "ptDescription": "Verifique se um usuário está banido do seu servidor",
+                    "enDescription": "Check if a user is banned from your server",
+                    "aliases": ["bancheck", "infoban", "baninfo"],
+                    "ptHowToUse": "checkban <ID>",
+                    "enHowToUse": "checkban <ID>",
+                    "image": "https://i.imgur.com/dHd3XWP.gif",
+                    "ptBotPermissions": ["Banir membros"],
+                    "ptUserPermissions": ["Banir membros"],
+                    "enBotPermissions": ["Ban members"],
+                    "enUserPermissions": ["Ban members"]
+                },
+                {
+                    "id": 4,
+                    "ptName": "clear",
+                    "enName": "clear",
+                    "ptDescription": "Delete até 100 mensagens em um canal de texto",
+                    "enDescription": "Delete messages in a text channel",
+                    "aliases": ["clean", "delete", "purge", "apagar", "limpar"],
+                    "ptHowToUse": "clear <quantidade> (#canal)",
+                    "enHowToUse": "clear <amount> (#channel)",
+                    "image": "https://i.imgur.com/Mgr4fSg.gif",
+                    "ptBotPermissions": ["Gerenciar mensagens"],
+                    "ptUserPermissions": ["Gerenciar mensagens"],
+                    "enBotPermissions": ["Manage messages"],
+                    "enUserPermissions": ["Manage messages"]
+                },
+                {
+                    "id": 5,
+                    "ptName": "createchannel",
+                    "enName": "createchannel",
+                    "ptDescription": "Crie um canal de texto/voz ou uma categoria",
+                    "enDescription": "Creates a text/voice channel, or a categorie",
+                    "aliases": ["addchannel", "newchannel", "channelcreate", "channeladd", "channelnew", "criarcanal", "cc"],
+                    "ptHowToUse": "createchannel <nome>",
+                    "enHowToUse": "createchannel <name>",
+                    "image": "https://i.imgur.com/cIACnRY.gif",
+                    "ptBotPermissions": ["Gerenciar canais"],
+                    "ptUserPermissions": ["Gerenciar canais"],
+                    "enBotPermissions": ["Manage channels"],
+                    "enUserPermissions": ["Manage channels"]
+                },
+                {
+                    "id": 6,
+                    "ptName": "createemoji",
+                    "enName": "createemoji",
+                    "ptDescription": "Crie um emoji a partir de uma imagem ou uma url",
+                    "enDescription": "Creates an emoji with an image or a url",
+                    "aliases": ["addemoji", "createmoji", "emojicreate", "emojiadd", "criaremoji", "ce"],
+                    "ptHowToUse": "createemoji <URL/imagem> <nome>",
+                    "enHowToUse": "createemoji <URL/image> <name>",
+                    "image": "https://i.imgur.com/NnxkovI.gif",
+                    "ptBotPermissions": ["Gerenciar emojis"],
+                    "ptUserPermissions": ["Gerenciar emojis"],
+                    "enBotPermissions": ["Manage emojis"],
+                    "enUserPermissions": ["Manage emojis"]
+                },
+                {
+                    "id": 7,
+                    "ptName": "createinvite",
+                    "enName": "createinvite",
+                    "ptDescription": "Crie um convite para o seu servidor",
+                    "enDescription": "Creates an invite to your server",
+                    "aliases": ["newinvite", "invitecreate", "invitenew", "criarconvite", "ci"],
+                    "ptHowToUse": "createinvite <tempo> (segundos/minutos/horas/dias)",
+                    "enHowToUse": "createinvite <time> (seconds/minutes/hours/days)",
+                    "image": "https://i.imgur.com/NWSYyyl.gif",
+                    "ptBotPermissions": ["Criar convites"],
+                    "ptUserPermissions": ["Criar convites"],
+                    "enBotPermissions": ["Create invites"],
+                    "enUserPermissions": ["Create invites"]
+                },
+                {
+                    "id": 8,
+                    "ptName": "createrole",
+                    "enName": "createrole",
+                    "ptDescription": "Crie um cargo para o seu servidor",
+                    "enDescription": "Creates a role to your server",
+                    "aliases": ["newrole", "rolecreate", "rolenew", "criarcargo", "cr"],
+                    "ptHowToUse": "createrole <nome>",
+                    "enHowToUse": "createrole <name>",
+                    "image": "https://i.imgur.com/Yff6p5L.gif",
+                    "ptBotPermissions": ["Gerenciar cargos"],
+                    "ptUserPermissions": ["Gerenciar cargos"],
+                    "enBotPermissions": ["Manage roles"],
+                    "enUserPermissions": ["Manage roles"]
+                },
+                {
+                    "id": 9,
+                    "ptName": "deletechannel",
+                    "enName": "deletechannel",
+                    "ptDescription": "Exclua de 1 até 5 canais de texto",
+                    "enDescription": "Deletes a text channel",
+                    "aliases": ["delchannel", "channeldelete", "channeldel", "dc", "delc", "deletarcanal"],
+                    "ptHowToUse": "deletechannel <#canais>",
+                    "enHowToUse": "deletechannel <#channel(s)>",
+                    "image": "https://i.imgur.com/Ocm664c.gif",
+                    "ptBotPermissions": ["Gerenciar canais"],
+                    "ptUserPermissions": ["Gerenciar canais"],
+                    "enBotPermissions": ["Manage channels"],
+                    "enUserPermissions": ["Manage channels"]
+                },
+                {
+                    "id": 10,
+                    "ptName": "deleteemoji",
+                    "enName": "deleteemoji",
+                    "ptDescription": "Exclua de 1 até 10 emojis do servidor",
+                    "enDescription": "Deletes an emoji",
+                    "aliases": ["delemoji", "emojidelete", "emojidel", "de", "deletaremoji"],
+                    "ptHowToUse": "deleteemoji <:emoji:/nome/ID>",
+                    "enHowToUse": "deleteemoji <:emoji:/name/ID>",
+                    "image": "https://i.imgur.com/rNbA7Xi.gif",
+                    "ptBotPermissions": ["Gerenciar emojis"],
+                    "ptUserPermissions": ["Gerenciar emojis"],
+                    "enBotPermissions": ["Manage emojis"],
+                    "enUserPermissions": ["Manage emojis"]
+                },
+                {
+                    "id": 11,
+                    "ptName": "deleterole",
+                    "enName": "deleterole",
+                    "ptDescription": "Exclua de 1 até 10 cargos do servidor",
+                    "enDescription": "Deletes a role",
+                    "aliases": ["delrole", "roledelete", "roledel", "dr", "deletarcargo"],
+                    "ptHowToUse": "deleterole <@cargo(s)>",
+                    "enHowToUse": "deleterole <@role(s)>",
+                    "image": "https://i.imgur.com/oVUhAAY.gif",
+                    "ptBotPermissions": ["Gerenciar cargos"],
+                    "ptUserPermissions": ["Gerenciar cargos"],
+                    "enBotPermissions": ["Manage roles"],
+                    "enUserPermissions": ["Manage roles"]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "letter": "D",
+            "ptName": "Diversão",
+            "enName": "Fun",
+            "commands": []
+        },
+        {
+            "id": 2,
+            "letter": "A",
+            "ptName": "Ações",
+            "enName": "Actions",
+            "commands": []
+        },
+        {
+            "id": 3,
+            "letter": "U",
+            "ptName": "Utilidades",
+            "enName": "Utilities",
+            "commands": []
+        },
+        {
+            "id": 4,
+            "letter": "P",
+            "ptName": "Photoshop",
+            "enName": "Photoshop",
+            "commands": []
+        },
+        {
+            "id": 5,
+            "letter": "X",
+            "ptName": "Diversos",
+            "enName": "Miscellaneous",
+            "commands": []
+        },
+        {
+            "id": 6,
+            "letter": "E",
+            "ptName": "Economia",
+            "enName": "Economy",
+            "commands": []
+        },
+        {
+            "id": 7,
+            "letter": "S",
+            "ptName": "Social",
+            "enName": "Social",
+            "commands": []
+        },
+        {
+            "id": 8,
+            "letter": "C",
+            "ptName": "Configurações",
+            "enName": "Settings",
+            "commands": []
+        }
+    ]
+}

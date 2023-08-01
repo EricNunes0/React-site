@@ -24,17 +24,17 @@
     background-clip: content-box;
     background-repeat: repeat;
     animation-name: backgroundScroll;
-    animation-duration: 10s;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(0, 0, 1, 1);
 }
 
 @keyframes backgroundScroll {
-	0% {
+	0%, 100% {
         background-position: 0% 0;
     }
-	100% {
-        background-position: 2400px;
+	50% {
+        background-position: 372% 100%;
     }
 }
 
@@ -61,7 +61,7 @@
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0, 0, 1, 1);
     animation-iteration-count: infinite;
-    background-image: url("https://i.imgur.com/82ozVEK.png");
+    background-image: url("https://i.imgur.com/82ozVEK.png"), linear-gradient(90deg, #800000, #a00000, #800000);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -242,21 +242,48 @@
 .introduction-texts-div {
     width: 100%;
     margin: auto;
-    padding: 5% 0%;
+}
+
+/* Divs das áreas de texto */
+/*.intro-divs {
+    height: 100vh;
+}*/
+
+/* Div da primeira aba: introdução */
+#introduction-div {
+    height: 100vh;
+}
+
+/* Div da segunda aba: sobre mim */
+#introduction-aboutme-div {
+    height: 100vh;
+}
+
+/* Nome de usuário do criador */
+#introduction-aboutme-username {
+    text-decoration: none;
+}
+
+/* Div da quarta aba: convite */
+#introduction-invite-div {
+    height: 100vh;
 }
 
 /* Alinhar título e linha */
 .index-hr-flex {
-    margin: 50px 0;
+    width: 100%;
+    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 50px 0;
+    margin: auto;
 }
 
 /* Linha */
 .index-hr {
-    width: 90%;
+    width: 80%;
     margin: 0;
 }
 
@@ -268,9 +295,20 @@
     margin: 0 5px;
 }
 
+/* Linha da aba de comandos */
+#index-hr-commands, #index-hr-invite {
+    position: initial;
+}
+
 
 .introduction-texts-board {
     width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     border-radius: 25px;
 }

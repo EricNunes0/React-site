@@ -1,6 +1,11 @@
+@font-face {
+	font-family: "Poppins";
+	src: url("../public/fonts/font_Poppins.ttf");
+}
+
 body {
 	margin: 0;
-	font-family: Montserrat, Hind,Roboto, sans-serif;
+	font-family: "Poppins";
 	font-size: 1rem;
 	font-weight: 200;
 	/*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;*/

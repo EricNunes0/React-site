@@ -1,27 +1,11 @@
 import './NavBar.css';
-import NavHide from '../../Functions/NavHide';
-import config from '../../config.json';
+import NavMenuInteraction from './NavMenuInteraction';
+import NavHide from '../../../Functions/NavHide';
+import config from '../../../config.json';
 
 function NavBar() {
-    const oAuth = config.oAuthURL;
+    //const oAuth = config.oAuthURL;
     const inviteLink = config.inviteLink;
-    function menuInteraction() {
-        let menus = document.getElementsByClassName('navigation-menu-div');
-        for(let i = 0; i <= menus.length - 1; i++) {
-            console.log(menus[i].className);
-            let button = document.getElementById('navigation-bar-button');
-            let icon = document.getElementById('navigation-bar-menu-icon');
-            if(menus[i].className === `navigation-menu-div closed`) {
-                menus[i].className = `navigation-menu-div opened`;
-                button.style["background-color"] = "#fff";
-                icon.style.filter = "invert(1)";
-            } else if(menus[i].className === `navigation-menu-div opened`) {
-                menus[i].className = `navigation-menu-div closed`;
-                button.style["background-color"] = "rgba(0, 0, 0, 0)";
-                icon.style.filter = "invert(0)";
-            }
-        };
-    };
 
     return (
         <div className = "nav-page">
@@ -63,7 +47,7 @@ function NavBar() {
                 </div>
                 <div className = "navigation-bar-max-width-768px">
                     <div className = "navigation-menu">
-                        <div id = "navigation-bar-button"  onClick = {menuInteraction}>
+                        <div id = "navigation-bar-button"  onClick = {() => NavMenuInteraction}>
                             <div>
                                 <img src = "https://i.imgur.com/PduipVM.png" alt = "BarMenuIcon" id = "navigation-bar-menu-icon"></img>
                             </div>
