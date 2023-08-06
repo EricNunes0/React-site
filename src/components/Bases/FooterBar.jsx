@@ -1,42 +1,47 @@
 import './FooterBar.css';
 
-function FooterBar() {
+export default function FooterBar() {
     const Terms = "https://drive.google.com/file/d/1Tyy-3qfLGq_tQ1UqEBK6NAhrXLgfWKe0/view?usp=sharing";
 
     return (
         <div className = "FooterBar">
             <footer className = "mainFooter">
-                <div className = "footerCategories">
-                    <div className = "footerDivs" id = "createdBy">
-                        <ul className="footer-texts" id="footer-main-div-text-tag">
-                            <li className = "font-color-white">Criado por <br></br><a href="https://github.com/EricNunes0" target="_blank" rel="noreferrer">Eric2605#9133</a></li>
+                <div className = "footer-categories">
+                    <div className = "footer-divs" id = "createdBy">
+                        <h3 className = "footer-titles">Criado por</h3>
+                        <ul className="footer-ul" id="footer-main-div-text-tag">
+                            <li className = "footer-li">
+                                <a className = "footer-li-links" id = "footer-li-createdby" href="https://github.com/EricNunes0" target="_blank" rel="noreferrer">
+                                    eric2605
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <div className = "footerDivs">
+                    <div className = "footer-divs">
                         <h3 className = "footer-titles">Bot</h3>
-                        <ul>
+                        <ul className = "footer-ul">
                             <li className = "footer-li">
-                                <a href = "/" className = "footer-texts">Início</a>
+                                <a href = "/" className = "footer-li-links">Início</a>
                             </li>
                             <li className = "footer-li">
-                                <a href = "/about" className = "footer-texts">Sobre</a>
+                                <a href = "/about" className = "footer-li-links">Sobre</a>
                             </li>
                             <li className = "footer-li">
-                                <a href = "/commands" className = "footer-texts">Comandos</a>
+                                <a href = "/commands" className = "footer-li-links">Comandos</a>
                             </li>
                             <li className = "footer-li">
-                                <a href = "/support" className = "footer-texts">Suporte</a>
+                                <a href = "/support" className = "footer-li-links">Suporte</a>
                             </li>
                         </ul>
                     </div>
-                    <div className = "footerDivs">
+                    <div className = "footer-divs">
                         <h3 className = "footer-titles">Legal</h3>
                         <ul>
                             <li className = "footer-li">
-                                <a href = {Terms} className = "footer-texts">Termos de serviço</a>
+                                <a href = {Terms} target = "_blank" className = "footer-li-links">Termos de serviço</a>
                             </li>
                             <li className = "footer-li">
-                                <a href = {Terms} className = "footer-texts">Política de privacidade</a>
+                                <a href = {Terms} target = "_blank" className = "footer-li-links">Política de privacidade</a>
                             </li>
                         </ul>
                     </div>
@@ -44,6 +49,4 @@ function FooterBar() {
             </footer>
         </div>
     )
-}
-
-export default FooterBar;
+};

@@ -94,9 +94,13 @@ body {
 }
 
 .fd-underline-0 {
+    cursor: pointer;
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-0);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-0:hover {
     text-shadow: var(--font-color-categorie-0) 0px 0px 3px;
 }
 
@@ -104,6 +108,9 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-1);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-1:hover {
     text-shadow: var(--font-color-categorie-1) 0px 0px 3px;
 }
 
@@ -111,6 +118,9 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-2);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-2:hover {
     text-shadow: var(--font-color-categorie-2) 0px 0px 3px;
 }
 
@@ -118,6 +128,9 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-3);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-3:hover {
     text-shadow: var(--font-color-categorie-3) 0px 0px 3px;
 }
 
@@ -125,6 +138,9 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-4);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-4:hover {
     text-shadow: var(--font-color-categorie-4) 0px 0px 3px;
 }
 
@@ -132,6 +148,9 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-5);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-5:hover {
     text-shadow: var(--font-color-categorie-5) 0px 0px 3px;
 }
 
@@ -139,6 +158,9 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-6);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-6:hover {
     text-shadow: var(--font-color-categorie-6) 0px 0px 3px;
 }
 
@@ -146,6 +168,9 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-7);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-7:hover {
     text-shadow: var(--font-color-categorie-7) 0px 0px 3px;
 }
 
@@ -153,15 +178,14 @@ body {
     text-decoration: underline;
     text-decoration-color: var(--font-color-categorie-8);
     text-decoration-thickness: from-font;
+    transition: all 0.3s;
+}
+.fd-underline-8:hover {
     text-shadow: var(--font-color-categorie-8) 0px 0px 3px;
 }
 
 .bs-categorie-0 {
     box-shadow: rgba(48, 96, 255, 0.1) 0px 10px 15px;
-}
-
-.fm-segoi {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ta-justify {
@@ -200,8 +224,8 @@ body {
 
 /* Width */
 ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     background-color: #101010;
 }
   
@@ -214,5 +238,6 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background-color:rgba(200, 30, 30);
+    background-image: linear-gradient(180deg, rgba(200, 30, 30, 1) 0%, rgba(150, 10, 10, 1) 100%);
     border-radius: 10px;
 }

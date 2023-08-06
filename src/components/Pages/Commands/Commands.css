@@ -53,7 +53,7 @@
 
 /* Painel de categorias */
 #categorie-board {
-    width: 25%;
+    width: 20%;
     height: 100%;
     background-color: #101010;
     border-radius: 10px;
@@ -70,8 +70,10 @@
 /* Título do painel */
 #categories-text {
     font-family: "Poppins";
-    font-size: 24pt;
+    font-size: 20pt;
+    font-weight: bold;
     color: #fff;
+    margin: 10px 0;
 }
 
 /* Categoria com os botões */
@@ -161,7 +163,8 @@
 }
 
 .categorie-buttons-texts {
-    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 12pt;
     margin: 0;
 }
 
@@ -177,7 +180,7 @@
 
 /* Painel de comandos */
 .commands-panel {
-    width: 60%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -213,8 +216,10 @@
 
 /* Título da aba de comandos */
 #commands-panel-header-title {
-    font-size: 24pt;
+    font-size: 20pt;
+    font-weight: bold;
     color: #fff;
+    margin: 10px 0;
 }
 
 /* Alinhar barra e botão de pesquisa */
@@ -228,7 +233,7 @@
 
 /* Barra de pesquisa */
 #commands-panel-header-search-input {
-    height: 30px;
+    height: 40px;
     background-color: transparent;
     color: #fff;
     font-size: 12pt;
@@ -340,6 +345,8 @@
 .commands-titles {
     font-size: 14pt;
     font-family: "Poppins";
+    padding: 10px 0;
+    margin: 0;
 }
 
 /* Conteúdo da barra de comando */

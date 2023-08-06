@@ -15,7 +15,7 @@ export default function commands() {
                         <h1 id = "commands-page-title">Comandos</h1>
                     </div>
                     <div id = "commands-page-description-div">
-                        <p id = "commands-page-description">Atualmente eu possuo 171 comandos com as mais variadas funções.<br></br>Para facilitar sua vida, os comandos são divididos nas 9 categorias listadas abaixo:</p>
+                        <p id = "commands-page-description">Atualmente eu possuo 171 comandos.<br></br>Todos eles estão divididos nas 9 categorias listadas abaixo:</p>
                     </div>
                 </div>
                 <div id = "commands-board-flex">

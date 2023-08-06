@@ -6,6 +6,9 @@
             "letter": "M",
             "ptName": "Moderação",
             "enName": "Moderation",
+            "ptDescription": "Aqui temos comandos para ajudar você a moderar seu servidor com mais praticidade!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/Tyjyk3q.png",
             "commands": [
                 {
                     "id": 0,
@@ -186,6 +189,51 @@
                     "ptUserPermissions": ["Gerenciar cargos"],
                     "enBotPermissions": ["Manage roles"],
                     "enUserPermissions": ["Manage roles"]
+                },
+                {
+                    "id": 12,
+                    "ptName": "embedcreator",
+                    "enName": "embedcreator",
+                    "ptDescription": "Crie uma mensagem em Embed e envie para um canal",
+                    "enDescription": "Creates an embed message",
+                    "aliases": ["ec", "embedcreate", "createembed", "creatembed", "sayembed", "embedsay"],
+                    "ptHowToUse": "embedcreator <#canal>",
+                    "enHowToUse": "deleterole <#channel>",
+                    "image": null,
+                    "ptBotPermissions": [],
+                    "ptUserPermissions": ["Administrador"],
+                    "enBotPermissions": [],
+                    "enUserPermissions": ["Administrator"]
+                },
+                {
+                    "id": 13,
+                    "ptName": "guildinvites",
+                    "enName": "guildinvites",
+                    "ptDescription": "Mostra a lista de convites do servidor",
+                    "enDescription": "Show a list with all active invites of the server",
+                    "aliases": ["serverinvites", "gi", "invites", "invitesguild", "invitesserver"],
+                    "ptHowToUse": "guildinvites",
+                    "enHowToUse": "guildinvites",
+                    "image": null,
+                    "ptBotPermissions": ["Gerenciar servidor"],
+                    "ptUserPermissions": ["Gerenciar servidor"],
+                    "enBotPermissions": ["Manage guild"],
+                    "enUserPermissions": ["Manage guild"]
+                },
+                {
+                    "id": 14,
+                    "ptName": "kick",
+                    "enName": "kick",
+                    "ptDescription": "Expulsa um ou mais membros do servidor",
+                    "enDescription": "Kicks 1 to 5 users",
+                    "aliases": ["ki", "expulsar", "kickuser", "kickmember", "userkick", "memberkick", "kickusers", "kickmembers", "userskick", "memberskick"],
+                    "ptHowToUse": "kick <@usuário(s)> (motivo opcional)",
+                    "enHowToUse": "kick <@usuário(s)> (motivo opcional)",
+                    "image": null,
+                    "ptBotPermissions": ["Expulsar membros"],
+                    "ptUserPermissions": ["Expulsar membros"],
+                    "enBotPermissions": ["Kick members"],
+                    "enUserPermissions": ["Kick members"]
                 }
             ]
         },
@@ -194,6 +242,9 @@
             "letter": "D",
             "ptName": "Diversão",
             "enName": "Fun",
+            "ptDescription": "Comandos para você se divertir com os seus amigos. Hackeie seus amigos, veja o tamanho da sua banana, crie ships, jogue minigames e muito mais!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/V3THGCm.png",
             "commands": []
         },
         {
@@ -201,6 +252,9 @@
             "letter": "A",
             "ptName": "Ações",
             "enName": "Actions",
+            "ptDescription": "Interaja com seus amigos usando as mais variadas ações. Mostre que está feliz ou triste, dance com seus amigos, ataque seus inimigos, e muito mais em 20 ações!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/avYyH4y.png",
             "commands": []
         },
         {
@@ -208,6 +262,9 @@
             "letter": "U",
             "ptName": "Utilidades",
             "enName": "Utilities",
+            "ptDescription": "Traduza textos em outros idiomas, role dados, faça contas, pesquise por imagens e letras de músicas, veja informações sobre seu servidor, canal e usuários. Tudo e mais um pouco!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/zi1dADr.png",
             "commands": []
         },
         {
@@ -215,6 +272,9 @@
             "letter": "P",
             "ptName": "Photoshop",
             "enName": "Photoshop",
+            "ptDescription": "Crie memes, customize o seu avatar e crie montagens engraçadas com seus amigos!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/7dIisbo.png",
             "commands": []
         },
         {
@@ -222,6 +282,9 @@
             "letter": "X",
             "ptName": "Diversos",
             "enName": "Miscellaneous",
+            "ptDescription": "Comandos extras para você que quer saber um pouco mais sobre mim e como funciono, reportar algum problema ou sugerir funcionalidades novas!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/rcwIksr.png",
             "commands": []
         },
         {
@@ -229,6 +292,9 @@
             "letter": "E",
             "ptName": "Economia",
             "enName": "Economy",
+            "ptDescription": "Confira meu próprio sistema de economia e junte o máximo de moedas que puder. Aposte em minigames como blackjack, cara ou coroa, dados, corridas, e muito mais!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/A9AkAO2.png",
             "commands": []
         },
         {
@@ -236,6 +302,9 @@
             "letter": "S",
             "ptName": "Social",
             "enName": "Social",
+            "ptDescription": "Crie e customize seu próprio perfil com cenários, layouts, gênero e muito mais!",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/uhAKy3d.png",
             "commands": []
         },
         {
@@ -243,6 +312,9 @@
             "letter": "C",
             "ptName": "Configurações",
             "enName": "Settings",
+            "ptDescription": "Configure o prefixo e o idioma do bot.",
+            "enDescription": "XXX",
+            "icon": "https://i.imgur.com/Tyjyk3q.png",
             "commands": []
         }
     ]

@@ -1,0 +1,33 @@
+#scrollup-div {
+    pointer-events: none;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+#scroll-button {
+    pointer-events: all;
+    position: absolute;
+    bottom: 2.5%;
+    right: 2.5%;
+    width: 75px;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: unset;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+#scroll-button[class~="hidden"] {
+    pointer-events: none;
+    opacity: 0;
+}
+
+#scroll-button-svg {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0.3);
+}
