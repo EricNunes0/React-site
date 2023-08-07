@@ -44,7 +44,35 @@ function Index() {
                                         <h2 className = "introduction-texts" id = "introduction-title">Olá, eu sou o <a href = "https://discordapp.com/users/911002921594925056" target = "_blank" rel="noreferrer" id = "janny-span">Janny</a>!</h2>
                                     </div>
                                     <div id = "introduction-text-div">
-                                        <p className = "introduction-texts" id = "introduction-text">Sou um bot focado com multifuncionalidades, como economia, diversão, moderação e utilidades.<br></br>Estou aqui para ajudar você a entreter o seu servidor!</p>
+                                        <p className = "introduction-texts" id = "introduction-text">Sou um bot focado com multifuncionalidades, como economia, diversão, moderação e utilidades. Estou aqui para ajudar você a entreter o seu servidor!</p>
+                                    </div>
+                                    <div id = "introduction-stats-div">
+                                        <div className = "stats-divs reveal-top">
+                                            <div className = "stats-icon-divs">
+                                                <img className = "stats-icons" src = "svgs/stats/server.svg"></img>
+                                            </div>
+                                            <div className = "stats-text-divs">
+                                                <div className = "stats-name-divs" id = "stats-server-name-div">
+                                                    <p className = "stats-names" id = "stats-server-name">+200</p>
+                                                </div>
+                                                <div className = "stats-counter-divs" id = "stats-server-counter-div">
+                                                    <p className = "stats-counters" id = "stats-server-counter">Servidores</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className = "stats-divs reveal-top">
+                                            <div className = "stats-icon-divs">
+                                                <img className = "stats-icons" src = "svgs/stats/users.svg"></img>
+                                            </div>
+                                            <div className = "stats-text-divs">
+                                                <div className = "stats-name-divs" id = "stats-server-name-div">
+                                                    <p className = "stats-names" id = "stats-server-name">+50000</p>
+                                                </div>
+                                                <div className = "stats-counter-divs" id = "stats-server-counter-div">
+                                                    <p className = "stats-counters" id = "stats-server-counter">Usuários</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

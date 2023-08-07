@@ -266,6 +266,63 @@ $jannySpanColor: #c01010;
     height: 60vh;
 }
 
+/* Div das estatísticas */
+#introduction-stats-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Divs de cada uma das estatísticas */
+.stats-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Divs dos ícones das estatísticas */
+.stats-icon-divs {
+    margin-right: 10px;
+}
+
+/* Ícones das estatísticas */
+.stats-icons {
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+}
+
+/* Divs dos textos das estatísticas */
+.stats-text-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+$statsColor: #d02020;
+
+/* Nomes das estatísticas */
+.stats-names {
+    font-family: "Poppins";
+    font-size: 16pt;
+    font-weight: bold;
+    color: $statsColor;
+    margin: 0;
+}
+
+/* Contadores das estatísticas */
+.stats-counters {
+    font-family: "Poppins";
+    font-size: 12pt;
+    color: #fff;
+    margin: 0;
+}
+
 /* Div da segunda aba: sobre mim */
 #introduction-aboutme-div {
     height: 60vh;
@@ -336,6 +393,11 @@ $jannySpanColor: #c01010;
     padding: 25px ;
     border-radius: 25px;
 }
+
+/* Div do título da introdução */
+#introduction-title-div {
+    margin: 10px 0;
+}
  
 /* Título da introdução */
 #introduction-title {
@@ -344,7 +406,7 @@ $jannySpanColor: #c01010;
 
 /* Div do texto da introdução */
 #introduction-text-div {
-    width: 60%;
+    width: 80%;
     max-width: 80rem;
 }
 
@@ -371,7 +433,7 @@ $jannySpanColor: #c01010;
 
 /* Alinhar itens das categorias */
 .introduction-categories-flex {
-    background-color: #403030;
+    background-color: #302020;
     max-width: 20rem;
     padding: 20px;
     margin: 20px 0;
@@ -392,7 +454,7 @@ $jannySpanColor: #c01010;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
-    background-color: #302020;
+    background-color: #403030;
     gap: 1rem;
     border-radius: 10px;
 } 

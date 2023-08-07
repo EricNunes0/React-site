@@ -1,7 +1,21 @@
 $revealTransitionDuration: 0.3s;
 
+.reveal-top {
+    transition: all $revealTransitionDuration;
+}
+
 .reveal-bottom {
     transition: all $revealTransitionDuration;
+}
+
+@keyframes RevealTop {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes RevealBottom {
