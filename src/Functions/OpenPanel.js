@@ -5,7 +5,6 @@ const categorieNames = [
 export default function OpenPanel({cat}) {
     const panels = document.querySelectorAll('.commands-panels');
     for(let i = 0; i <= panels.length - 1; i++) {
-        let panelClass = panels[i].className;
         if(i === cat) {
             panels[i].classList.add(`on`);
             panels[i].classList.remove(`off`);
@@ -16,7 +15,6 @@ export default function OpenPanel({cat}) {
     }
     const buttons = document.querySelectorAll('.categorie-buttons');
     for(let i = 0; i < buttons.length; i++) {
-        let buttonClass = buttons[i].className;
         if(i === cat) {
             buttons[i].classList.add(`on`);
             buttons[i].classList.remove(`off`);

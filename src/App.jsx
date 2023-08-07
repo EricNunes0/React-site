@@ -1,7 +1,6 @@
 import './App.css';
 import "./Styles/revealAnimation.scss";
-//import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Bases/NavigationBar/NavBar';
 import Index from './components/Pages/Index/Index';
 import About from './components/Pages/about/about';

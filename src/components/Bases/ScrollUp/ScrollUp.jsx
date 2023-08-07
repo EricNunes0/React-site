@@ -11,7 +11,7 @@ export default function ScrollUp() {
         <div id = "scrollup-div">
             <div id = "scroll-button-div">
                 <button type = "button" className = "hidden" id = "scroll-button" tabIndex = {-1}>
-                    <img id = "scroll-button-svg" src = "svgs/scrollUp.svg"></img>
+                    <img id = "scroll-button-svg" src = "svgs/scrollUp.svg" alt = "ScrollIcon"></img>
                 </button>
             </div>
         </div>

@@ -5,18 +5,20 @@ export default function FooterBar() {
 
     return (
         <div className = "FooterBar">
-            <footer className = "mainFooter">
-                <div className = "footer-categories">
+            <footer id = "main-footer">
+                <div id = "footer-left">
                     <div className = "footer-divs" id = "createdBy">
                         <h3 className = "footer-titles">Criado por</h3>
                         <ul className="footer-ul" id="footer-main-div-text-tag">
                             <li className = "footer-li">
                                 <a className = "footer-li-links" id = "footer-li-createdby" href="https://github.com/EricNunes0" target="_blank" rel="noreferrer">
-                                    eric2605
+                                eric2605
                                 </a>
                             </li>
                         </ul>
                     </div>
+                </div>
+                <div id = "footer-right">
                     <div className = "footer-divs">
                         <h3 className = "footer-titles">Bot</h3>
                         <ul className = "footer-ul">
@@ -36,12 +38,12 @@ export default function FooterBar() {
                     </div>
                     <div className = "footer-divs">
                         <h3 className = "footer-titles">Legal</h3>
-                        <ul>
+                        <ul className = "footer-ul">
                             <li className = "footer-li">
-                                <a href = {Terms} target = "_blank" className = "footer-li-links">Termos de serviço</a>
+                                <a href = {Terms} target = "_blank" rel="noreferrer" className = "footer-li-links">Termos de serviço</a>
                             </li>
                             <li className = "footer-li">
-                                <a href = {Terms} target = "_blank" className = "footer-li-links">Política de privacidade</a>
+                                <a href = {Terms} target = "_blank" rel="noreferrer" className = "footer-li-links">Política de privacidade</a>
                             </li>
                         </ul>
                     </div>

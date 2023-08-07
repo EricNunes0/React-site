@@ -1,12 +1,8 @@
 import './Commands.css';
-//import cmds from '../../../Functions/Commands.json';
-import CommandBarsActive from '../../../Functions/CommandBarsActive';
-import OpenPanel from '../../../Functions/OpenPanel';
 import CreateCategories from './CreateCategories';
 import CreateCategorieButtons from './CreateCategorieButtons';
 
 export default function commands() {
-    const prefix = "a@";
     return (
         <div id = "commands-page">
             <div id = "commands-page-main">

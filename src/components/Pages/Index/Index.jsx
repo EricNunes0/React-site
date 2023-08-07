@@ -49,7 +49,7 @@ function Index() {
                                     <div id = "introduction-stats-div">
                                         <div className = "stats-divs reveal-top">
                                             <div className = "stats-icon-divs">
-                                                <img className = "stats-icons" src = "svgs/stats/server.svg"></img>
+                                                <img className = "stats-icons" src = "svgs/stats/server.svg" alt = "ServerIcon"></img>
                                             </div>
                                             <div className = "stats-text-divs">
                                                 <div className = "stats-name-divs" id = "stats-server-name-div">
@@ -62,7 +62,7 @@ function Index() {
                                         </div>
                                         <div className = "stats-divs reveal-top">
                                             <div className = "stats-icon-divs">
-                                                <img className = "stats-icons" src = "svgs/stats/users.svg"></img>
+                                                <img className = "stats-icons" src = "svgs/stats/users.svg" alt = "UserIcon"></img>
                                             </div>
                                             <div className = "stats-text-divs">
                                                 <div className = "stats-name-divs" id = "stats-server-name-div">
@@ -86,7 +86,7 @@ function Index() {
                                         <h2 className = "introduction-texts" id = "introduction-title">Quem sou eu?</h2>
                                     </div>
                                     <div id = "introduction-aboutme-text-div">
-                                        <p className = "introduction-texts" id = "introduction-text">Sou um bot simples criado para o Discord, e estou aqui para lhe ajudar a entreter a sua comunidade. Inicialmente, eu fui criado por <a id = "introduction-aboutme-username" href = "" target = "_blank">Eric2605</a> apenas para divertir um grupo de amigos do meu criador, e nem tinha planos de me tornar o bot que sou hoje. Porém, o projeto acabou expandindo com o tempo, e hoje já estou em mais de 200 servidores! Meu objetivo é ser reconhecido pela plataforma, trazendo alegria para as pessoas!</p>
+                                        <p className = "introduction-texts" id = "introduction-text">Sou um bot simples criado para o Discord, e estou aqui para lhe ajudar a entreter a sua comunidade. Meu objetivo é ser reconhecido pela plataforma, trazendo alegria para as pessoas!</p>
                                     </div>
                                 </div>
                             </div>

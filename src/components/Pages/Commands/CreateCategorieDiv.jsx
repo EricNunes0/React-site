@@ -1,5 +1,4 @@
 import CreateCommandDiv from "./CreateCommandDiv";
-import commandsJSON from "../../../Settings/commands.json";
 
 export default function CreateCategorieDiv({categorie}) {
     let rows = [];

@@ -7,7 +7,15 @@ footer {
     font-weight: 500;
 }
 
-.footer-categories {
+#main-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-right {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -15,16 +23,16 @@ footer {
 }
 
 .footer-divs {
-    width: 25%;
     display: block;
+    padding: 2rem;
 }
 
 .footer-titles {
+    text-align: start;
     text-transform: uppercase;
-    color: #fff;
+    color: #d0d0d0;
     font-family: "Poppins";
     font-size: 14pt;
-    font-weight: bold;
 }
 
 .footer-texts {
@@ -39,6 +47,7 @@ footer {
 }
 
 .footer-ul {
+    text-align: start;
     list-style: none;
     padding: 0;
 }
@@ -51,11 +60,12 @@ footer {
 
 .footer-li-links {
     text-decoration: none;
-    color: #a0a0a0;
+    color: #909090;
     font-family: "Poppins";
     font-size: 12pt;
+    transition: all 0.3s;
 }
 .footer-li-links:hover {
     text-decoration: underline;
-    color: #909090;
+    color: #606060;
 }

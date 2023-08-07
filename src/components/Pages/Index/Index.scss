@@ -1,4 +1,5 @@
 $mainBackgroundColor: #0a0000;
+$mainBackgroundColorRed: #c01010;
 .main-div-background {
     background: linear-gradient(0deg, $mainBackgroundColor 0%, rgba(0, 0, 0, 1) 100%);
     display: flex;
@@ -24,10 +25,7 @@ $mainBackgroundColor: #0a0000;
     background-size: cover;
     background-clip: content-box;
     background-repeat: repeat;
-    animation-name: backgroundScroll;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation: backgroundScroll 20s ease-in-out infinite, backgroundGlow 3s ease-in-out infinite;
 }
 
 @keyframes backgroundScroll {
@@ -36,6 +34,17 @@ $mainBackgroundColor: #0a0000;
     }
 	50% {
         background-position: /*372%*/ 100% 100%;
+    }
+}
+
+$backgroundGlowColor: #d04040;
+
+@keyframes backgroundGlow {
+    0%, 100% {
+        filter: drop-shadow(2px 2px 3px $backgroundGlowColor);
+    }
+    50% {
+        filter: drop-shadow(2px 2px 1px $mainBackgroundColor);
     }
 }
 
@@ -79,7 +88,7 @@ $mainBackgroundColor: #0a0000;
     }
 
     #janny-image {
-        width: 60%;
+        width: 40%;
     }
 }
 
@@ -133,12 +142,13 @@ $mainBackgroundColor: #0a0000;
 }
 
 #main-div-container-buttons {
-    width: 50%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -261,9 +271,14 @@ $jannySpanColor: #c01010;
     margin: auto;
 }
 
+/* Divs da introdução */
+.intro-divs {
+    padding: 5vh 0;
+}
+
 /* Div da primeira aba: introdução */
 #introduction-div {
-    height: 60vh;
+    height: unset;
 }
 
 /* Div das estatísticas */
@@ -335,7 +350,7 @@ $statsColor: #d02020;
 
 /* Div da quarta aba: convite */
 #introduction-invite-div {
-    height: 60vh;
+    height: unset;
 }
 
 /* Alinhar título e linha */
@@ -372,7 +387,6 @@ $statsColor: #d02020;
 
 .introduction-texts-board {
     width: 80%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -385,6 +399,8 @@ $statsColor: #d02020;
 /* Div dos textos da introdução */
 /* Div dos textos da parte sobre mim */
 #introduction-main-text-div, #introduction-main-aboutme-text-div, #introduction-main-commands-text-div, #introduction-main-invite-text-div {
+    min-height: 10rem;
+    max-width: 50rem;
     background-color: #201010;
     display: flex;
     flex-direction: column;
