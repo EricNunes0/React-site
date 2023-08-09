@@ -1,0 +1,223 @@
+$aboutMainRadialColor: #0a0000;
+
+.about-main-introduction {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $aboutMainRadialColor;
+}
+
+#about-main-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Div da esquerda */
+#about-left-div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Título da primeira aba */
+#about-title {
+    font-family: "Poppins";
+    font-size: 32pt;
+    font-weight: bold;
+    color: #fff;
+}
+
+$spanColor: #c01010;
+/* Span do título */
+#about-title-span {
+    cursor: pointer;
+    color: $spanColor;
+    background-image: linear-gradient(90deg, $spanColor, $spanColor);
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+    background-size: 0px 2px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+#about-title-span:hover {
+    background-size: 100% 2px;
+    text-shadow: $spanColor 0px 0px 3px;
+}
+
+/* Descrição */
+#about-description {
+    color: var(--font-color-gray-A);
+    font-size: 14pt;
+    font-family: "Poppins";
+}
+
+/* Div dos detalhes */
+#about-details-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Detalhes */
+.about-details {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10%;
+}
+
+/* Ícones dos detalhes */
+.about-details-icons {
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0px 0px 5px $spanColor);
+    transform: translateY(-3px);
+}
+
+/* Textos dos detalhes */
+.about-details-texts {
+    font-family: "Poppins";
+    font-size: 1rem;
+    color: var(--font-color-gray-8);
+}
+
+/* Div do botão de convidar bot */
+#about-invite-button-div {
+    padding: 20px 0;
+}
+
+$inviteButtonColor: #c01010;
+/* Botão de convidar bot */
+#about-invite-button {
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    background-image: linear-gradient(0deg, $inviteButtonColor, transparent);
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+    background-position: 100% 0%;
+    color: $inviteButtonColor;
+    padding: 0.8rem 1.6rem;
+    border: 2px solid $inviteButtonColor;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+#about-invite-button:hover {
+    transform: scale(1.03);
+    background-position: 100% 100%;
+    filter: drop-shadow(0px 0px 5px $inviteButtonColor);
+    color: #fff;
+}
+
+/* Div da direita */
+#about-right-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.janny-image.blue {
+    width: 80%;
+    max-width: 100%;
+    pointer-events: none;
+    border: 1px outset #fff;
+    border-radius: 50%;
+    animation-name: JannyBlueImageBackground;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 0, 1, 1);
+    animation-iteration-count: infinite;
+    background-image: url("https://i.imgur.com/5cuPDSQ.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #000080;
+}
+
+@keyframes JannyBlueImageBackground {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 40px 40px;
+    }
+}
+
+/* Imagem da logo do Janny */
+#about-logo-image {
+    width: 100%;
+    min-width: 300px;
+    pointer-events: none;
+    opacity: 1;
+    animation: hoverSimpleAnimation 2s ease-in-out infinite,
+    AboutLogoReveal 0.5s ease-in-out;
+    padding: 3rem;
+}
+
+@keyframes AboutLogoReveal {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+}
+
+/* Sessão de sobre */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: $aboutMainRadialColor;
+}
+
+/* Board da sessão de sobre */
+
+/* Div da imagem da sessão sobre */
+.about-image-div {
+    margin: 5%;
+}
+
+/* Div de textos da sessão sobre */
+.about-texts-div {
+    margin: 5%;
+}
+
+@media screen and (min-width: 769px) {
+    /* Board da sessão de sobre */
+    .about-board {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Board da sessão de sobre */
+    .about-board {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    #about-right-div {
+        width: 80%;
+    }
+}

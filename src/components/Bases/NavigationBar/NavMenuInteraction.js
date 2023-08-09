@@ -1,4 +1,5 @@
 export default function NavMenuInteraction() {
+    console.warn("Me vencer")
     let menus = document.getElementsByClassName('navigation-menu-div');
     for(let i = 0; i <= menus.length - 1; i++) {
         let button = document.getElementById('navigation-bar-button');

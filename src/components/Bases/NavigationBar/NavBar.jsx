@@ -1,4 +1,4 @@
-import './NavBar.css';
+import './NavBar.scss';
 import NavMenuInteraction from './NavMenuInteraction';
 import NavHide from '../../../Functions/NavHide';
 import config from '../../../config.json';
@@ -13,45 +13,47 @@ function NavBar() {
                 <div className = "navigation-bar-max-width-1024px">
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
-                            <a className = "nav-texts red" id = "nav-text-1" href = "/">
+                            <a className = "nav-texts-links" id = "nav-text-1" href = "/">
                                 Início
                             </a>
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
-                            <a className = "nav-texts red" id = "nav-text-2" href = "/about">
+                            <a className = "nav-texts-links" id = "nav-text-2" href = "/about">
                                 Sobre
                             </a>
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
-                            <a className = "nav-texts red" id = "nav-text-3" href = "/Commands">
+                            <a className = "nav-texts-links" id = "nav-text-3" href = "/Commands">
                                 Comandos
                             </a>
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
                         <div className = "navigation-align-img-text">
-                            <a className = "nav-texts red" id = "nav-text-4" href = "/support">
+                            <a className = "nav-texts-links" id = "nav-text-4" href = "/support">
                                 Suporte
                             </a>
                         </div>
                     </div>
                     <div className = "navigation-bar-texts-div">
-                        <a className = "nav-texts red" id = "nav-text-4" href = {inviteLink}>
-                            Adicionar
-                        </a>
+                        <div className = "navigation-align-img-text">
+                            <a className = "nav-texts-links" id = "nav-text-5" href = {inviteLink}>
+                                Adicionar
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className = "navigation-bar-max-width-768px">
                     <div className = "navigation-menu">
-                        <div id = "navigation-bar-button"  onClick = {() => NavMenuInteraction}>
+                        <button id = "navigation-bar-button"  onClick = {() => NavMenuInteraction()}>
                             <div>
                                 <img src = "https://i.imgur.com/PduipVM.png" alt = "BarMenuIcon" id = "navigation-bar-menu-icon"></img>
                             </div>
-                        </div>
+                        </button>
                         <div>
                             
                         </div>
@@ -59,34 +61,34 @@ function NavBar() {
                     <div className = "navigation-menu-div closed">
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
-                                        <a className = "nav-texts red" id = "nav-text-1" href = "/">Início
+                                        <a className = "nav-texts-links" id = "nav-text-1" href = "/">Início
                                         </a>
                                     </div>
                                 </div>
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
-                                        <a className = "nav-texts red" id = "nav-text-2" href = "/about">Sobre</a>
+                                        <a className = "nav-texts-links" id = "nav-text-2" href = "/about">Sobre</a>
                                     </div>
                                 </div>
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
-                                        <a className = "nav-texts red" id = "nav-text-3" href = "/commands">Comandos</a>
+                                        <a className = "nav-texts-links" id = "nav-text-3" href = "/commands">Comandos</a>
                                     </div>
                                 </div>
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
-                                        <a className = "nav-texts red" id = "nav-text-4" href = "/support">Suporte</a>
+                                        <a className = "nav-texts-links" id = "nav-text-4" href = "/support">Suporte</a>
                                     </div>
                                 </div>
                                 <div className = "navigation-bar-texts-div">
                                     <div className = "navigation-align-img-text">
-                                        <a className = "nav-texts gray" id = "nav-text-enter" href = {inviteLink}>Adicionar</a>
+                                        <a className = "nav-texts-links" id = "nav-text-enter" href = {inviteLink}>Adicionar</a>
                                     </div>
                                 </div>
                             </div>
                 </div>
-                <div className = "nav-bar-button-div">
-                    <button className = "nav-bar-button" onClick = {NavHide}>
+                <div id = "nav-bar-button-div">
+                    <button id = "nav-bar-button" onClick = {() => NavHide()}>
                         <img src = "https://i.imgur.com/cb7E2P8.png" alt = "Início" id = "nav-button-image"/>
                     </button>
                 </div>

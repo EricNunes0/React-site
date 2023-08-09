@@ -414,6 +414,11 @@
     display: none;
 }
 
+/* Div dos títulos da descrição dos comandos */
+.commands-descriptions-title-div {
+    padding: 10px 0;
+}
+
 /* Título da descrição dos comandos */
 .commands-descriptions-titles {
     font-family: "Poppins";
@@ -439,9 +444,11 @@
 
 /* Sinônimos dos comandos */
 .commands-aliases {
+    width: 90%;
     font-family: "Poppins";
     font-size: 10pt;
     color: #d0d0d0;
+    margin: auto;
 }
 
 /* Título da aba de como usar dos comandos */

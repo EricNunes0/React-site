@@ -3,13 +3,14 @@
     --nav-bar-height: 50px; /* Altura da barra de navegação */
 }
 
+$navBarColor: #0a0a0a;
 /* Barra de navegação */
 .nav-bar {
     width: 100%;
     height: var(--nav-bar-height);
     position: fixed;
     z-index: 1;
-    background-image: linear-gradient(90deg, rgba(0, 0, 10, 1), rgba(0, 0, 0, 0.95));
+    background-color: $navBarColor;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 15px;
     transition: all 0.3s;
     transition-timing-function: ease-in-out;
@@ -35,7 +36,7 @@
 }
 
 /*Maior que 768px e menor que 1024px*/
-@media screen and (min-width: 769px)/* and (max-width: 1024px)*/ {
+@media screen and (min-width: 769px) {
     .navigation-bar-texts-div {
         width: 15%;
         height: 100%;
@@ -50,7 +51,7 @@
 }
 
 /*Maior que 480px e menor que 768px*/
-@media screen and /*(min-width: 480px) and*/ (max-width: 768px) {
+@media screen and  (max-width: 768px) {
     .navigation-bar-max-width-1024px {
         display: none;
     }
@@ -61,6 +62,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    #nav-bar-button-div {
+        display: none;
     }
 }
 
@@ -86,10 +91,14 @@
     background-color: #2040d0;
 }
 
-.nav-texts {
-    width: 100%;
+$navTextColor: #c01010;
+.nav-texts-links {
     height: 100%;
     text-decoration: none;
+    background-image: linear-gradient(90deg, $navTextColor, $navTextColor);
+    background-position: 0 48px;
+    background-repeat: no-repeat;
+    background-size: 0px 2px;
     color: rgb(200, 200, 200, 1);
     font-family: "Poppins";
     font-size: 12pt;
@@ -97,18 +106,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.nav-texts:hover {
     transition: all 0.3s;
 }
-
-.nav-texts.red:hover {
-    color: #f05050;
-    border-bottom: 1px solid #f05050;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+.nav-texts-links:hover {
+    background-size: 100% 2px;
+    color: $navTextColor;
 }
 
 .nav-texts.gray:hover {
@@ -152,6 +154,7 @@
 
 /* Menu de navegação */
 .navigation-menu {
+    position: relative;
     height: var(--nav-bar-height);
     display: flex;
     flex-direction: column;
@@ -161,19 +164,18 @@
 
 .navigation-menu-div {
     width: 30%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.navigation-menu-div.closed {
-    display: none;
-}
-
-.navigation-menu-div.opened {
+    min-width: 50px;
     display: flex;
     flex-direction: column;
+    background-color: $navBarColor;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: auto;
+    transition: all 0.3s;
+}
+.navigation-menu-div[class~="closed"] {
+    pointer-events: none;
+    opacity: 0;
 }
 
 .navigation-bar-flex {
@@ -185,15 +187,17 @@
 }
 
 #navigation-bar-button {
+    background-color: transparent;
     width: 30%;
+    min-width: 50px;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: unset;
     transition: background-color 0.3s;
 }
-
 #navigation-bar-button:hover {
     cursor: pointer;
     filter: invert(0);
@@ -209,19 +213,18 @@
 }
 
 /* Div do botão de fechar barra de navegação */
-.nav-bar-button-div {
+#nav-bar-button-div {
     float: unset; /* left para esquerda */
     width: 60px;
     margin: auto;
 }
 
 /* Botão da barra de navegação */
-.nav-bar-button {
+#nav-bar-button {
     width: 60px;
     height: 25px;
-    background-color: transparent;
-    background-image: linear-gradient(90deg, rgba(0, 0, 10, 1), rgba(0, 0, 0, 0.95));
-    border-width: 0;
+    background-color: $navBarColor;
+    border: none;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 15px;
@@ -234,4 +237,5 @@
 /* Imagem do botão de abrir/fechar barra de navegação */
 #nav-button-image {
     width: 18px;
+    transition: all 0.3s;
 }

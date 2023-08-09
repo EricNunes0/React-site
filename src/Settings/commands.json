@@ -228,12 +228,27 @@
                     "enDescription": "Kicks 1 to 5 users",
                     "aliases": ["ki", "expulsar", "kickuser", "kickmember", "userkick", "memberkick", "kickusers", "kickmembers", "userskick", "memberskick"],
                     "ptHowToUse": "kick <@usuário(s)> (motivo opcional)",
-                    "enHowToUse": "kick <@usuário(s)> (motivo opcional)",
+                    "enHowToUse": "kick <@usuário(s)> (optional reason)",
                     "image": null,
                     "ptBotPermissions": ["Expulsar membros"],
                     "ptUserPermissions": ["Expulsar membros"],
                     "enBotPermissions": ["Kick members"],
                     "enUserPermissions": ["Kick members"]
+                },
+                {
+                    "id": 15,
+                    "ptName": "removeicon",
+                    "enName": "removeicon",
+                    "ptDescription": "Remove o ícone do seu servidor",
+                    "enDescription": "Removes the icon of your server",
+                    "aliases": ["removeguildicon", "ri", "rgi", "iconremove", "guildiconremove", "guildremoveicon", "deleteicon", "deleteguildicon", "excluirícone", "excluiricone"],
+                    "ptHowToUse": "removeicon",
+                    "enHowToUse": "removeicon",
+                    "image": null,
+                    "ptBotPermissions": ["Gerenciar servidor"],
+                    "ptUserPermissions": ["Gerenciar servidor"],
+                    "enBotPermissions": ["Manage guild"],
+                    "enUserPermissions": ["Manage guild"]
                 }
             ]
         },
