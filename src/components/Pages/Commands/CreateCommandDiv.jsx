@@ -1,8 +1,7 @@
 import CommandBarsActive from "../../../Functions/CommandBarsActive";
 import commandsJSON from "../../../Settings/commands.json";
-import CreateBotPermissionsButtons from "./CreateBotPermissionsButtons";
 import CreateExampleDiv from "./CreateExampleDiv";
-import CreateUserPermissionsButtons from "./CreateUserPermissionsButtons";
+import CreatePermissions from "./CreatePermissions";
 
 export default function CreateCommandDiv({categorie, command}) {
 
@@ -23,7 +22,7 @@ export default function CreateCommandDiv({categorie, command}) {
     return(
         <div className = "command-bars" id = {`command-${categorie.id}-${command.id}`}>
             <div className = "commands-titles-divs" id = {`commands-title-${categorie.id}-${command.id}`} onClick = {() => {CommandBarsActive({cat: categorie.id, id: command.id})}}>
-                <h2 className = "commands-titles font-color-white text-decoration-underline-blue">{prefix}{command.ptName}</h2>
+                <h2 className = {`commands-titles text-decoration-underline-${categorie.id}`}>{prefix}{command.ptName}</h2>
             </div>
             <div className = "commands-content close" id = {`content-${categorie.id}-${command.id}`}>
                 <div className = "content-absolute"></div>
@@ -59,20 +58,7 @@ export default function CreateCommandDiv({categorie, command}) {
                             <h4 className = "commands-permissions-titles">Permissões necessárias</h4>
                         </div>
                         <div className = "permissions-flex">
-                            <div className = "permissions-divs">
-                                <div className = "permissions-bot">
-                                    <div className = "permissions-bot-title-div">
-                                        <h4 className = "permissions-bot-titles">Permissões do bot</h4>
-                                    </div>
-                                    <CreateBotPermissionsButtons command = {command}/>
-                                </div>
-                                <div className = "permissions-user">
-                                    <div className = "permissions-user-title-div">
-                                        <h4 className = "permissions-user-titles">Permissões do usuário</h4>
-                                    </div>
-                                    <CreateUserPermissionsButtons command = {command}/>
-                                </div>
-                            </div>
+                            <CreatePermissions command = {command}/>
                         </div>
                     </div>
                 </div>

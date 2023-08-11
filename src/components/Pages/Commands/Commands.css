@@ -501,20 +501,8 @@
     margin: 5px 0;
 }
 
-.text-decoration-underline-blue {
-    text-decoration: underline;
-    text-decoration-color: #3060ff;
-    text-decoration-thickness: from-font;
-}
-
-.text-decoration-underline-yellow {
-    text-decoration: underline;
-    text-decoration-color: #f0d000;
-    text-decoration-thickness: from-font;
-}
-
 /* Alinhar permissões */
-.permissions-divs {
+#permissions-div {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
