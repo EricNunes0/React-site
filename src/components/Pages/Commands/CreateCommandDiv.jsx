@@ -1,7 +1,7 @@
 import CommandBarsActive from "../../../Functions/CommandBarsActive";
 import commandsJSON from "../../../Settings/commands.json";
 import CreateExampleDiv from "./CreateExampleDiv";
-import CreatePermissions from "./CreatePermissions";
+import CreatePermissionsDiv from "./CreatePermissionsDiv";
 
 export default function CreateCommandDiv({categorie, command}) {
 
@@ -51,16 +51,8 @@ export default function CreateCommandDiv({categorie, command}) {
                             <p className = "commands-use">{prefix}{command.ptHowToUse}</p>
                         </div>
                     </div>
-                    <hr className = "hr-color-gray"></hr>
                     <CreateExampleDiv command = {command}/>
-                    <div className = "commands-permissions-flex">
-                        <div className = "permissions-title-div">
-                            <h4 className = "commands-permissions-titles">Permissões necessárias</h4>
-                        </div>
-                        <div className = "permissions-flex">
-                            <CreatePermissions command = {command}/>
-                        </div>
-                    </div>
+                    <CreatePermissionsDiv command = {command}/>
                 </div>
             </div>
         </div>

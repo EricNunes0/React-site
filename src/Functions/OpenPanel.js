@@ -1,27 +1,18 @@
-const categorieNames = [
-    "Moderação", "Diversão", "Ações", "Utilidades", "Photoshop", "Diversos", "Economia", "Social", "Configuração"
-]
-
 export default function OpenPanel({cat}) {
-    const panels = document.querySelectorAll('.commands-panels');
-    for(let i = 0; i <= panels.length - 1; i++) {
-        if(i === cat) {
-            panels[i].classList.add(`on`);
-            panels[i].classList.remove(`off`);
-        } else {
-            panels[i].classList.remove(`on`);
-            panels[i].classList.add(`off`);
-        }
-    }
+    const categories = document.querySelectorAll(".commands-categories");
     const buttons = document.querySelectorAll('.categorie-buttons');
-    for(let i = 0; i < buttons.length; i++) {
-        if(i === cat) {
+    for(let i = 0; i <= categories.length - 1; i++) {
+        if(i === cat.id) {
+            categories[i].classList.add(`on`);
+            categories[i].classList.remove(`off`);
             buttons[i].classList.add(`on`);
             buttons[i].classList.remove(`off`);
         } else {
+            categories[i].classList.remove(`on`);
+            categories[i].classList.add(`off`);
             buttons[i].classList.remove(`on`);
             buttons[i].classList.add(`off`);
-        } 
-    }
-    document.getElementById('commands-panel-header-title').innerHTML = `${categorieNames[cat]}`;
+        }
+    };
+    document.getElementById('commands-panel-header-title').innerHTML = cat.ptName;
 };

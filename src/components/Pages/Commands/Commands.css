@@ -162,6 +162,18 @@
     gap: 10px;
 }
 
+/* Div dos ícones dos botões */
+.categorie-buttons-icons-div {
+    display: none;
+}
+
+/* Ícones dos botões */
+.categorie-buttons-icons {
+    width: 80%;
+    height: 80%;
+    filter: grayscale(1) brightness(0.8);
+}
+
 .categorie-buttons-texts {
     font-family: "Poppins";
     font-size: 12pt;
@@ -290,8 +302,7 @@
 }
 
 /* Listas de comandos (categorias) */
-.commands-categories.on {
-    background-color: #303030;
+.commands-categories {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -547,12 +558,12 @@
     #commands-board-flex {
         flex-direction: column;
         justify-content: unset;
-        gap: 10%;
+        gap: 30px;
     }
 
     #categorie-board {
         width: 90%;
-        height: 30%;
+        height: unset;
     }
 
     #categorie-board-buttons-main {
@@ -570,6 +581,10 @@
         display: none;
     }
 
+    .categorie-buttons-icons-div {
+        display: block;
+    }
+
     .commands-panel {
         width: 90%;
         height: 60%;
@@ -585,7 +600,6 @@
 
     #commands-panel-header-search-input {
         width: 50%;
-        height: 30px;
         text-align: center;
         font-size: 14pt;
     }

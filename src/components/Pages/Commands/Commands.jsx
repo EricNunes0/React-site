@@ -28,7 +28,7 @@ export default function commands() {
                             <div className = "commands-panel-header">
                                 <div className = "commands-panel-header-flex">
                                     <div className = "commands-panel-header-title-div">
-                                        <h1 className = "commands-panel-header-titles font-color-white" id = "commands-panel-header-title">Moderação</h1>
+                                        <h1 className = "commands-panel-header-titles font-color-white" id = "commands-panel-header-title">Comandos</h1>
                                     </div>
                                     <div className = "commands-panel-header-search-div">
                                         <input id = "commands-panel-header-search-input" type = "text" placeholder = "Pesquise um comando" maxLength = {20}></input>
