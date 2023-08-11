@@ -196,7 +196,27 @@ body {
 }
 .text-decoration-underline-1 {
     text-decoration: underline;
-    text-decoration-color: #f0d000;
+    text-decoration-color: var(--font-color-categorie-1);
+    text-decoration-thickness: from-font;
+}
+.text-decoration-underline-2 {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-categorie-2);
+    text-decoration-thickness: from-font;
+}
+.text-decoration-underline-3 {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-categorie-3);
+    text-decoration-thickness: from-font;
+}
+.text-decoration-underline-4 {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-categorie-4);
+    text-decoration-thickness: from-font;
+}
+.text-decoration-underline-5 {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-categorie-5);
     text-decoration-thickness: from-font;
 }
 
