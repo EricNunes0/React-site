@@ -219,6 +219,21 @@ body {
     text-decoration-color: var(--font-color-categorie-5);
     text-decoration-thickness: from-font;
 }
+.text-decoration-underline-6 {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-categorie-6);
+    text-decoration-thickness: from-font;
+}
+.text-decoration-underline-7 {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-categorie-7);
+    text-decoration-thickness: from-font;
+}
+.text-decoration-underline-8 {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-categorie-8);
+    text-decoration-thickness: from-font;
+}
 
 .bs-categorie-0 {
     box-shadow: rgba(48, 96, 255, 0.1) 0px 10px 15px;
