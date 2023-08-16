@@ -1,8 +1,17 @@
 import './Commands.css';
 import CreateCategories from './CreateCategories';
 import CreateCategorieButtons from './CreateCategorieButtons';
+import commandsJSON from "../../../Settings/commands.json";
 
 export default function commands() {
+    let categoriesLength = 0, commandsLength = 0;
+    for(const categories of commandsJSON.categories) {
+        categoriesLength++;
+        if(categories.commands) {
+            commandsLength += categories.commands.length;
+        };
+    }
+
     return (
         <div id = "commands-page">
             <div id = "commands-page-main">
@@ -11,7 +20,7 @@ export default function commands() {
                         <h1 id = "commands-page-title">Comandos</h1>
                     </div>
                     <div id = "commands-page-description-div">
-                        <p id = "commands-page-description">Atualmente eu possuo 171 comandos.<br></br>Todos eles estão divididos nas 9 categorias listadas abaixo:</p>
+                        <p id = "commands-page-description">Atualmente eu possuo {commandsLength} comandos divididos nas {categoriesLength} categorias listadas abaixo:</p>
                     </div>
                 </div>
                 <div id = "commands-board-flex">
