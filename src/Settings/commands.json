@@ -979,6 +979,21 @@
                 },
                 {
                     "id": 22,
+                    "ptName": "kickbutt",
+                    "enName": "kickbutt",
+                    "ptDescription": "Chute um usuário",
+                    "enDescription": "Kick a user",
+                    "aliases": ["buttkick", "kb", "chute", "chutar", "chutando"],
+                    "ptHowToUse": "kickbutt <@usuário>",
+                    "enHowToUse": "kickbutt <@user>",
+                    "image": null,
+                    "ptBotPermissions": [],
+                    "ptUserPermissions": [],
+                    "enBotPermissions": [],
+                    "enUserPermissions": []
+                },
+                {
+                    "id": 23,
                     "ptName": "kiss",
                     "enName": "kiss",
                     "ptDescription": "Beije um usuário",
@@ -993,7 +1008,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 23,
+                    "id": 24,
                     "ptName": "laugh",
                     "enName": "laugh",
                     "ptDescription": "Ação de dar risada",
@@ -1008,7 +1023,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 24,
+                    "id": 25,
                     "ptName": "pat",
                     "enName": "pat",
                     "ptDescription": "Faz um cafuné em um usuário",
@@ -1023,7 +1038,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 25,
+                    "id": 26,
                     "ptName": "punch",
                     "enName": "punch",
                     "ptDescription": "Soque um usuário",
@@ -1038,7 +1053,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 26,
+                    "id": 27,
                     "ptName": "sad",
                     "enName": "sad",
                     "ptDescription": "Ação de ficar triste",
@@ -1053,7 +1068,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 27,
+                    "id": 28,
                     "ptName": "slap",
                     "enName": "slap",
                     "ptDescription": "Dê um tapa em um usuário",
@@ -1068,7 +1083,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 28,
+                    "id": 29,
                     "ptName": "sleep",
                     "enName": "sleep",
                     "ptDescription": "Mostre que você está dormindo ou com sono",
@@ -1083,7 +1098,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 29,
+                    "id": 30,
                     "ptName": "think",
                     "enName": "think",
                     "ptDescription": "Mostre que você está pensando",
