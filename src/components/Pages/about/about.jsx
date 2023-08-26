@@ -1,7 +1,9 @@
 import CreateAboutDetails from './CreateAboutDetails';
 import './about.scss';
+import config from '../../../config.json';
 
 function About() {
+    const inviteLink = config.inviteLink;
     return (
         <div className = "about-page">
             <div className = "about-main">
@@ -24,7 +26,7 @@ function About() {
                                 </div>
                                 <CreateAboutDetails/>
                                 <div id = "about-invite-button-div">
-                                    <a id = "about-invite-button" href = "" target = "_blank">Adicionar</a>
+                                    <a id = "about-invite-button" href = {inviteLink} target = "_blank" rel="noreferrer">Adicionar</a>
                                 </div>
                             </div>
                         </div>

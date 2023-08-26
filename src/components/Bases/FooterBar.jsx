@@ -16,6 +16,19 @@ export default function FooterBar() {
                                 </a>
                             </li>
                         </ul>
+                        <div id = "footer-logo-div">
+                            <div id = "footer-logo-flex">
+                                <div id = "footer-logo-icon-div">
+                                    <img id = "footer-logo-icon" src = "images/logo.png" width = {30} height = {30}></img>
+                                </div>
+                                <div id = "footer-logo-name-div">
+                                    <span id = "footer-logo-name">Janny</span>
+                                </div>
+                            </div>
+                            <div id = "footer-rights">
+                                <p id = "footer-rights-text">© <b>Eric2605</b> 2021 - {new Date().getFullYear()} - Todos os direitos reservados</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div id = "footer-right">

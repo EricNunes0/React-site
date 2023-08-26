@@ -788,9 +788,9 @@
                     "enName": "cook",
                     "ptDescription": "Ação de cozinha",
                     "enDescription": "Action of cooking",
-                    "aliases": ["cooking", "cozinhar", "cozinho"],
-                    "ptHowToUse": "cook (@usuário)",
-                    "enHowToUse": "cook (@user)",
+                    "aliases": ["cooking", "cozinhar", "cozinhando"],
+                    "ptHowToUse": "cook (@usuários)",
+                    "enHowToUse": "cook (@users)",
                     "image": null,
                     "ptBotPermissions": [],
                     "ptUserPermissions": [],
@@ -799,6 +799,21 @@
                 },
                 {
                     "id": 10,
+                    "ptName": "cry",
+                    "enName": "cry",
+                    "ptDescription": "Mostre que você está chorando",
+                    "enDescription": "Shows that you are crying",
+                    "aliases": ["crying", "chorar", "chorando", "choro"],
+                    "ptHowToUse": "cry (@usuários)",
+                    "enHowToUse": "cry (@users)",
+                    "image": null,
+                    "ptBotPermissions": [],
+                    "ptUserPermissions": [],
+                    "enBotPermissions": [],
+                    "enUserPermissions": []
+                },
+                {
+                    "id": 11,
                     "ptName": "cuddle",
                     "enName": "cuddle",
                     "ptDescription": "Demonstre seu afeto por um usuário",
@@ -813,7 +828,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 11,
+                    "id": 12,
                     "ptName": "dance",
                     "enName": "dance",
                     "ptDescription": "Dance com outros usuários",
@@ -828,7 +843,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 12,
+                    "id": 13,
                     "ptName": "eat",
                     "enName": "eat",
                     "ptDescription": "Coma uma comida deliciosa com um usuário",
@@ -843,7 +858,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 13,
+                    "id": 14,
                     "ptName": "feed",
                     "enName": "feed",
                     "ptDescription": "Alimente um usuário",
@@ -858,7 +873,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 14,
+                    "id": 15,
                     "ptName": "gaming",
                     "enName": "gaming",
                     "ptDescription": "Mostre que você está jogando no momento",
@@ -873,7 +888,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 15,
+                    "id": 16,
                     "ptName": "glare",
                     "enName": "glare",
                     "ptDescription": "Encare um usuário",
@@ -888,7 +903,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 16,
+                    "id": 17,
                     "ptName": "handholding",
                     "enName": "handholding",
                     "ptDescription": "Segure a mão de um usuário",
@@ -903,7 +918,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 17,
+                    "id": 18,
                     "ptName": "happy",
                     "enName": "happy",
                     "ptDescription": "Ação de ficar feliz",
@@ -918,7 +933,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 18,
+                    "id": 19,
                     "ptName": "heal",
                     "enName": "heal",
                     "ptDescription": "Cure um usuário",
@@ -933,7 +948,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 19,
+                    "id": 20,
                     "ptName": "hi",
                     "enName": "hi",
                     "ptDescription": "Ação de dizer oi",
@@ -948,7 +963,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 20,
+                    "id": 21,
                     "ptName": "highfive",
                     "enName": "highfive",
                     "ptDescription": "Dê um \"toca aqui\" com um usuário",
@@ -963,7 +978,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 21,
+                    "id": 22,
                     "ptName": "hug",
                     "enName": "hug",
                     "ptDescription": "Abrace um usuário",
@@ -978,7 +993,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 22,
+                    "id": 23,
                     "ptName": "kickbutt",
                     "enName": "kickbutt",
                     "ptDescription": "Chute um usuário",
@@ -993,7 +1008,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 23,
+                    "id": 24,
                     "ptName": "kiss",
                     "enName": "kiss",
                     "ptDescription": "Beije um usuário",
@@ -1008,7 +1023,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 24,
+                    "id": 25,
                     "ptName": "laugh",
                     "enName": "laugh",
                     "ptDescription": "Ação de dar risada",
@@ -1023,7 +1038,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 25,
+                    "id": 26,
                     "ptName": "pat",
                     "enName": "pat",
                     "ptDescription": "Faz um cafuné em um usuário",
@@ -1038,7 +1053,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 26,
+                    "id": 27,
                     "ptName": "punch",
                     "enName": "punch",
                     "ptDescription": "Soque um usuário",
@@ -1053,7 +1068,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 27,
+                    "id": 28,
                     "ptName": "sad",
                     "enName": "sad",
                     "ptDescription": "Ação de ficar triste",
@@ -1068,7 +1083,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 28,
+                    "id": 29,
                     "ptName": "slap",
                     "enName": "slap",
                     "ptDescription": "Dê um tapa em um usuário",
@@ -1083,7 +1098,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 29,
+                    "id": 30,
                     "ptName": "sleep",
                     "enName": "sleep",
                     "ptDescription": "Mostre que você está dormindo ou com sono",
@@ -1098,7 +1113,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 30,
+                    "id": 31,
                     "ptName": "think",
                     "enName": "think",
                     "ptDescription": "Mostre que você está pensando",
