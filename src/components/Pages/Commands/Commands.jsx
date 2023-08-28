@@ -2,6 +2,7 @@ import './Commands.css';
 import CreateCategories from './CreateCategories';
 import CreateCategorieButtons from './CreateCategorieButtons';
 import commandsJSON from "../../../Settings/commands.json";
+import CommandSearch from "./CommandSearch";
 
 export default function commands() {
     let categoriesLength = 0, commandsLength = 0;
@@ -40,8 +41,8 @@ export default function commands() {
                                         <h1 className = "commands-panel-header-titles font-color-white" id = "commands-panel-header-title">Comandos</h1>
                                     </div>
                                     <div className = "commands-panel-header-search-div">
-                                        <input id = "commands-panel-header-search-input" type = "text" placeholder = "Pesquise um comando" maxLength = {20}></input>
-                                        <button id = "commands-panel-header-search-button" type = "button" value = "o">
+                                        <input id = "search-input" type = "text" placeholder = "Pesquise um comando" maxLength = {20}></input>
+                                        <button id = "search-button" type = "button" value = "o" onClick={() => {CommandSearch()}}>
                                             <img className = "pointer-events-none" src = "https://i.imgur.com/YAqIGw3.png" alt = "searchIcon" id = "search-icon"></img>
                                         </button>
                                     </div>

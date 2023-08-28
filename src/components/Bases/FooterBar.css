@@ -1,7 +1,7 @@
 footer {
     border-top: 1px solid #302020;
     text-align: center;
-    background-image: linear-gradient(180deg, rgba(10, 5, 5, 1), rgba(10, 5, 5, 1));
+    background-image: linear-gradient(180deg, rgba(5, 0, 0, 1), rgba(5, 0, 0, 1));
     color: #505050;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
@@ -110,4 +110,5 @@ footer {
 #footer-rights-text {
     font-size: 9pt;
     font-family: "Poppins";
+    margin: 0;
 }

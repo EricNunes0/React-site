@@ -7,7 +7,7 @@ export default function CreateCategories() {
         rows.push(CreateCategorieDiv({categorie: cat}));
     };
     return(
-        <div>
+        <div id = "categories" key = {`categories`}>
             {rows}
         </div>
     );

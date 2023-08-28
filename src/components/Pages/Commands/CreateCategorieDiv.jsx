@@ -7,7 +7,7 @@ export default function CreateCategorieDiv({categorie}) {
     };
 
     return(
-        <div className = "commands-categories off" id = {`categorie-${categorie.id}`}>
+        <div className = "commands-categories on" id = {`categorie-${categorie.id}`}>
             {rows}
         </div>
     );

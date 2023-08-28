@@ -71,7 +71,6 @@
 #categories-text {
     font-family: "Poppins";
     font-size: 20pt;
-    font-weight: bold;
     color: #fff;
     margin: 10px 0;
 }
@@ -220,7 +219,7 @@
 
 .categorie-buttons-texts {
     font-family: "Poppins";
-    font-size: 12pt;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -236,7 +235,7 @@
 
 /* Painel de comandos */
 .commands-panel {
-    width: 70%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -273,7 +272,6 @@
 /* Título da aba de comandos */
 #commands-panel-header-title {
     font-size: 20pt;
-    font-weight: bold;
     color: #fff;
     margin: 10px 0;
 }
@@ -288,7 +286,7 @@
 }
 
 /* Barra de pesquisa */
-#commands-panel-header-search-input {
+#search-input {
     height: 40px;
     background-color: transparent;
     color: #fff;
@@ -301,12 +299,12 @@
     outline: 1px solid #505050;
     transition: all 0.3s;
 }
-#commands-panel-header-search-input:focus {
+#search-input:focus {
     outline: 1px solid #fff;
 }
 
 /* Botão de pesquisa */
-#commands-panel-header-search-button {
+#search-button {
     cursor: pointer;
     width: 50px;
     height: 40px;
@@ -317,7 +315,7 @@
     outline: 1px solid #505050;
     transition: all 0.3s;
 }
-#commands-panel-header-search-button:hover {
+#search-button:hover {
     filter: brightness(1.1);
     outline: 1px solid #fff;
 }
@@ -340,6 +338,7 @@
     width: 100%;
     height: 100%;
     background-color: #0a0a0a;
+    outline: 2px solid #666;
     border-radius: 10px;
     overflow: auto;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -371,9 +370,13 @@
     margin: 10px 0;
     border-radius: 3%;
 }
+.command-bars[class~="hide"] {
+    display: none;
+}
 
 /* Título dos comandos */
 .commands-titles-divs {
+    position: relative;
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -391,9 +394,58 @@
 .commands-titles-divs.open{
     background-color: #151515;
 }
-
 .commands-titles-divs:hover {
     background-color: #151515;
+}
+
+/* Divs das labels das categorias */
+.categorie-label-divs {
+    pointer-events: none;
+    min-width: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.categorie-label-divs.c0 {
+    background-color: var(--font-color-categorie-0);
+}
+.categorie-label-divs.c1 {
+    background-color: var(--font-color-categorie-1);
+}
+.categorie-label-divs.c2 {
+    background-color: var(--font-color-categorie-2);
+}
+.categorie-label-divs.c3 {
+    background-color: var(--font-color-categorie-3);
+}
+.categorie-label-divs.c4 {
+    background-color: var(--font-color-categorie-4);
+}
+.categorie-label-divs.c5 {
+    background-color: var(--font-color-categorie-5);
+}
+.categorie-label-divs.c6 {
+    background-color: var(--font-color-categorie-6);
+}
+.categorie-label-divs.c7 {
+    background-color: var(--font-color-categorie-7);
+}
+.categorie-label-divs.c8 {
+    background-color: var(--font-color-categorie-8);
+}
+
+/* Labels das categorias */
+.categorie-labels {
+    text-align: center;
+    font-size: 8pt;
+    font-family: "Poppins";
+    padding: 3px 5px;
+    margin: 0;
 }
 
 /* Título dos comandos */
@@ -606,20 +658,22 @@
     }
 
     #categorie-board {
-        width: 90%;
+        width: 100%;
         height: unset;
     }
 
     #categorie-board-buttons-main {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
         overflow: auto;
         gap: 5px;
     }
 
     .categorie-buttons {
-        width: 50px;
-        height: 50px;
+        width: 35px;
+        min-width: unset;
+        height: 35px;
     }
 
     .categorie-buttons-texts-div {
@@ -631,8 +685,8 @@
     }
 
     .commands-panel {
-        width: 90%;
-        height: 60%;
+        width: 100%;
+        height: 80%;
     }
 
     .commands-panel-header-title-div {
@@ -643,13 +697,14 @@
         width: 90%;
     }
 
-    #commands-panel-header-search-input {
-        width: 50%;
+    #search-input {
+        width: 80%;
+        max-width: 300px;
         text-align: center;
         font-size: 14pt;
     }
 
-    #commands-panel-header-search-button {
+    #search-button {
         height: 40px;
         padding: 0 10px;
     }

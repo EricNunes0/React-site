@@ -8,14 +8,6 @@ export default function FooterBar() {
             <footer id = "main-footer">
                 <div id = "footer-left">
                     <div className = "footer-divs" id = "createdBy">
-                        <h3 className = "footer-titles">Criado por</h3>
-                        <ul className="footer-ul" id="footer-main-div-text-tag">
-                            <li className = "footer-li">
-                                <a className = "footer-li-links" id = "footer-li-createdby" href="https://github.com/EricNunes0" target="_blank" rel="noreferrer">
-                                eric2605
-                                </a>
-                            </li>
-                        </ul>
                         <div id = "footer-logo-div">
                             <div id = "footer-logo-flex">
                                 <div id = "footer-logo-icon-div">
