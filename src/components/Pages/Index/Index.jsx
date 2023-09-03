@@ -49,6 +49,19 @@ function Index() {
                                     <div id = "introduction-stats-div">
                                         <div className = "stats-divs reveal-top">
                                             <div className = "stats-icon-divs">
+                                                <img className = "stats-icons" src = "svgs/stats/commands.svg" alt = "CommandsIcon"></img>
+                                            </div>
+                                            <div className = "stats-text-divs">
+                                                <div className = "stats-name-divs" id = "stats-server-name-div">
+                                                    <p className = "stats-names" id = "stats-server-name">+180</p>
+                                                </div>
+                                                <div className = "stats-counter-divs" id = "stats-server-counter-div">
+                                                    <p className = "stats-counters" id = "stats-server-counter">Comandos</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className = "stats-divs reveal-top">
+                                            <div className = "stats-icon-divs">
                                                 <img className = "stats-icons" src = "svgs/stats/server.svg" alt = "ServerIcon"></img>
                                             </div>
                                             <div className = "stats-text-divs">
@@ -87,6 +100,9 @@ function Index() {
                                     </div>
                                     <div id = "introduction-aboutme-text-div">
                                         <p className = "introduction-texts" id = "introduction-text">Sou um bot simples criado para o Discord, e estou aqui para lhe ajudar a entreter a sua comunidade. Meu objetivo é ser reconhecido pela plataforma, trazendo alegria para as pessoas!</p>
+                                    </div>
+                                    <div id = "introduction-aboutme-button-div">
+                                        <button type = "button" id = "intro-to-about-button">Saber mais</button>
                                     </div>
                                 </div>
                             </div>

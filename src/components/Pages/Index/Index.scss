@@ -401,7 +401,7 @@ $statsColor: #d02020;
 #introduction-main-text-div, #introduction-main-aboutme-text-div, #introduction-main-commands-text-div, #introduction-main-invite-text-div {
     min-height: 10rem;
     max-width: 50rem;
-    background-color: #201010;
+    /*background-color: #201010;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -439,6 +439,31 @@ $statsColor: #d02020;
     font-size: 12pt;
 }
 
+/* Botão da introdução linkando para sobre mim */
+/*#introduction-aboutme-button-div {
+}*/
+
+$aboutmeButtonColor: #ff7777;
+$aboutmeButtonColor2: #7777ff;
+/* Botão linkando para sobre mim */
+#intro-to-about-button {
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    color: $aboutmeButtonColor;
+    border: 2px solid $aboutmeButtonColor;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 1px;
+    transition: all 0.3s;
+}
+#intro-to-about-button:hover {
+    transform: scale(1.1);
+    background-color: $aboutmeButtonColor2;
+    color: #fff;
+    border: 2px solid $aboutmeButtonColor2;
+    box-shadow: $aboutmeButtonColor2 0px 0px 1rem;
+}
+
 /* Alinhar categorias */
 .introduction-categories {
     display: flex;
@@ -449,11 +474,12 @@ $statsColor: #d02020;
 
 /* Alinhar itens das categorias */
 .introduction-categories-flex {
-    background-color: #302020;
-    max-width: 20rem;
+    background-color: #200000;
+    max-width: 300px;
+    max-height: 200px;
     padding: 20px;
     margin: 20px 0;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -507,7 +533,7 @@ $statsColor: #d02020;
 
 /* Descrições das categorias */
 .categorie-descriptions {
-    color: #a0a0a0;
+    color: #f0d0d0;
     font-family: "Poppins";
     font-size: 10pt;
     text-align: justify;

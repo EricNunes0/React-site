@@ -16,7 +16,7 @@ export default function CreateIntroductionCategorie({index}) {
                     </div>
                 </section>
                 <section className = "categorie-title-section">
-                    <h3 className = {`categorie-titles font-color-white fd-underline-${foundCategorie.id}`}>{foundCategorie.ptName}</h3>
+                    <h3 className = {`categorie-titles font-color-white`}>{foundCategorie.ptName}</h3>
                 </section>
             </div>
             <section className = "categorie-description-section">

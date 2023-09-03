@@ -13,7 +13,7 @@ function About() {
                             <div id = "about-right-div">
                                 <div className = "about-texts-flex">            
                                     <div className = "about-logo-div">
-                                        <img src = "https://i.imgur.com/9MMJ9DE.png" alt = "about-logo" id = "about-logo-image"></img>
+                                        <img src = "images/img_aboutLogo.png" alt = "about-logo" id = "about-logo-image"></img>
                                     </div>
                                 </div>
                             </div>
@@ -32,17 +32,26 @@ function About() {
                         </div>
                     </div>
                     <section className = "about-section">
-                        <div className = "about-div">
+                        <div className = "about-divs reveal-bottom">
                             <div className = "about-board">
-                                <div className = "about-image-div">
-                                    <img className = "janny-image blue" src = "../../images/img_JannyCircle.png" alt = "JannyCircle"></img>
-                                </div>
                                 <div className = "about-texts-div">
                                     <div className = "about-title">
-                                        <h1 className = "font-color-white">Olá, eu sou o Janny!</h1>
+                                        <h1 className = "font-color-white">O que eu sou?</h1>
                                     </div>
-                                    <div className = "about-description">
-                                        <p>Eu sou um bot multifuncionalidades desenvolvido para o Discord, com o intuito de entreter sua comunidade e engajar seus membros!</p>
+                                    <div className = "about-description-divs">
+                                        <p id = "about-description">Sou um bot de entreterimento desenvolvido para o aplicativo Discord, com o intuito de entreter sua comunidade e engajar seus membros!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className = "about-divs reveal-bottom">
+                            <div className = "about-board">
+                                <div className = "about-texts-div">
+                                    <div className = "about-title">
+                                        <h1 className = "font-color-white">O que posso fazer?</h1>
+                                    </div>
+                                    <div className = "about-description-divs">
+                                        <p id = "about-description">Sou focado em moderação, diversão, interações de usuários, utilidades gerais, edições de imagens e gifs, pesquisas, economia e perfis sociais. Meu objeto é auxiliar no entretenimento de seus usuários, além de auxiliar na administração de servidores. E para mostrar do que sou capaz, confira cada uma das minhas categorias de comando abaixo:</p>
                                     </div>
                                 </div>
                             </div>

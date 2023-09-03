@@ -212,9 +212,11 @@
 
 /* Ícones dos botões */
 .categorie-buttons-icons {
-    width: 80%;
-    height: 80%;
-    filter: grayscale(1) brightness(0.8);
+    width: 70%;
+    height: 70%;
+    max-width: 50px;
+    max-height: 50px;
+    filter: grayscale(1);
 }
 
 .categorie-buttons-texts {
@@ -654,7 +656,6 @@
     #commands-board-flex {
         flex-direction: column;
         justify-content: unset;
-        gap: 30px;
     }
 
     #categorie-board {
@@ -674,6 +675,7 @@
         width: 35px;
         min-width: unset;
         height: 35px;
+        border-radius: 5px;
     }
 
     .categorie-buttons-texts-div {

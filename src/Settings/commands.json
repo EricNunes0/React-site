@@ -8,7 +8,7 @@
             "enName": "Moderation",
             "ptDescription": "Aqui temos comandos para ajudar você a moderar seu servidor com mais praticidade!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/Tyjyk3q.png",
+            "icon": "images/categories/img_mod.png",
             "commands": [
                 {
                     "id": 0,
@@ -424,7 +424,7 @@
             "enName": "Fun",
             "ptDescription": "Comandos para você se divertir com os seus amigos. Hackeie seus amigos, veja o tamanho da sua banana, crie ships, jogue minigames e muito mais!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/V3THGCm.png",
+            "icon": "images/categories/img_fun.png",
             "commands": [
                 {
                     "id": 0,
@@ -645,7 +645,7 @@
             "enName": "Actions",
             "ptDescription": "Interaja com seus amigos usando as mais variadas ações. Mostre que está feliz ou triste, dance com seus amigos, ataque seus inimigos, e muito mais em 20 ações!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/avYyH4y.png",
+            "icon": "images/categories/img_act.png",
             "commands": [
                 {
                     "id": 0,
@@ -1136,7 +1136,7 @@
             "enName": "Utilities",
             "ptDescription": "Traduza textos em outros idiomas, role dados, faça contas, pesquise por imagens e letras de músicas, veja informações sobre seu servidor, canal e usuários. Tudo e mais um pouco!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/zi1dADr.png",
+            "icon": "images/categories/img_util.png",
             "commands": [
                 {
                     "id": 0,
@@ -1537,7 +1537,7 @@
             "enName": "Photoshop",
             "ptDescription": "Crie memes, customize o seu avatar e crie montagens engraçadas com seus amigos!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/7dIisbo.png",
+            "icon": "images/categories/img_ps.png",
             "commands": [
                 {
                     "id": 0,
@@ -2073,7 +2073,7 @@
             "enName": "Miscellaneous",
             "ptDescription": "Comandos extras para você que quer saber um pouco mais sobre mim e como funciono, reportar algum problema ou sugerir funcionalidades novas!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/rcwIksr.png",
+            "icon": "images/categories/img_misc.png",
             "commands": [
                 {
                     "id": 0,
@@ -2189,7 +2189,7 @@
             "enName": "Economy",
             "ptDescription": "Confira meu próprio sistema de economia e junte o máximo de moedas que puder. Aposte em minigames como blackjack, cara ou coroa, dados, corridas, e muito mais!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/A9AkAO2.png",
+            "icon": "images/categories/img_economy.png",
             "commands": [
                 {
                     "id": 0,
@@ -2620,7 +2620,7 @@
             "enName": "Social",
             "ptDescription": "Crie e customize seu próprio perfil com cenários, layouts, gênero e muito mais!",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/uhAKy3d.png",
+            "icon": "images/categories/img_social.png",
             "commands": [
                 {
                     "id": 0,
@@ -2781,7 +2781,7 @@
             "enName": "Settings",
             "ptDescription": "Configure o prefixo e o idioma do bot.",
             "enDescription": "XXX",
-            "icon": "https://i.imgur.com/Tyjyk3q.png",
+            "icon": "images/categories/img_config.png",
             "commands": [
                 {
                     "id": 0,
