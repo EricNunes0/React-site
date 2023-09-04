@@ -1,4 +1,4 @@
-$mainBackgroundColor: #0a0000;
+$mainBackgroundColor: #050000;
 $mainBackgroundColorRed: #c01010;
 .main-div-background {
     background: linear-gradient(0deg, $mainBackgroundColor 0%, rgba(0, 0, 0, 1) 100%);
@@ -37,7 +37,7 @@ $mainBackgroundColorRed: #c01010;
     }
 }
 
-$backgroundGlowColor: #d04040;
+$backgroundGlowColor: #404040;
 
 @keyframes backgroundGlow {
     0%, 100% {
@@ -63,18 +63,18 @@ $backgroundGlowColor: #d04040;
     pointer-events: none;
     width: 80%;
     max-width: 100%;
-    outline: 2px outset #fff;
+    outline: 3px outset #ff5555;
     border-radius: 50%;
     animation-name: JannyImageBackground;
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0, 0, 1, 1);
     animation-iteration-count: infinite;
-    background-image: url("https://i.imgur.com/82ozVEK.png"), linear-gradient(90deg, #800000, #a00000, #800000);
+    background-image: url("https://i.imgur.com/82ozVEK.png"), linear-gradient(180deg, #600000, #a00000, #600000);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
     background-color: #800000;
-    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -307,8 +307,8 @@ $jannySpanColor: #c01010;
 /* Ícones das estatísticas */
 .stats-icons {
     pointer-events: none;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 /* Divs dos textos das estatísticas */
@@ -340,12 +340,38 @@ $statsColor: #d02020;
 
 /* Div da segunda aba: sobre mim */
 #introduction-aboutme-div {
-    height: 60vh;
+    max-height: 60vh;
 }
 
 /* Nome de usuário do criador */
 #introduction-aboutme-username {
     text-decoration: none;
+}
+
+/* Div do botão de ver comandos */
+#introduction-see-commands-button-div {
+    margin: 10px 0;
+}
+
+$seeCommandsButtonColor: #d04040;
+/* Botão de ver comandos */
+#introduction-see-commands-button {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: $seeCommandsButtonColor;
+    border: 2px solid $seeCommandsButtonColor;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+#introduction-see-commands-button:hover {
+    transform: scale(1.05);
+    background-color: $seeCommandsButtonColor;
+    color: #fff;
+    box-shadow: $seeCommandsButtonColor 0px 0px 10px;
 }
 
 /* Div da quarta aba: convite */
@@ -474,19 +500,28 @@ $aboutmeButtonColor2: #7777ff;
 
 /* Alinhar itens das categorias */
 .introduction-categories-flex {
-    background-color: #200000;
+    background-color: #0a0000;
     max-width: 300px;
     max-height: 200px;
-    padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    outline: 2px solid #603030;
 }
 .introduction-categories-flex:hover {
     transform: scale(1.05);
+    filter: drop-shadow(0px 0px 3px $inviteButtonColor);
+}
+
+/* Links das categorias */
+.categories-links {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
 }
 
 /* Alinhar categorias */
@@ -535,7 +570,7 @@ $aboutmeButtonColor2: #7777ff;
 .categorie-descriptions {
     color: #f0d0d0;
     font-family: "Poppins";
-    font-size: 10pt;
+    font-size: 12px;
     text-align: justify;
 }
 
@@ -579,4 +614,14 @@ $aboutmeButtonColor2: #7777ff;
     background-color: $inviteButtonColor;
     color: #fff;
     box-shadow: $inviteButtonColor 0px 0px 10px;
+}
+
+@media screen and (max-width: 480px) {
+    #introduction-aboutme-text-div {
+        width: 100%;
+    }
+
+    .introduction-texts-board {
+        width: 95%;
+    }
 }

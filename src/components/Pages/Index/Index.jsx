@@ -14,7 +14,7 @@ function Index() {
                     </div>
                     <div className = "main-div-container-divs" id = "main-div-container-infos">
                         <div className = "main-div-container-informations" id = "main-div-container-logo">
-                            <img id = "janny-logo-image" src = "https://i.imgur.com/gkMNnA5.png" alt = "Janny Logo"></img>
+                            <img id = "janny-logo-image" src = "../images/img_mainLogo.png" alt = "Janny Logo"></img>
                         </div>
                         <div className = "main-div-container-informations" id = "main-div-container-buttons">
                             <div className = "main-div-buttons" id = "invite-button-div">
@@ -120,6 +120,11 @@ function Index() {
                             </div>
                             <div className = "introduction-categories">
                                 <CreateIntroductionCategories/>
+                            </div>
+                            <div id = "introduction-see-commands-button-div">
+                                <a href = "/Commands">
+                                    <button type = "button" id = "introduction-see-commands-button">Ver comandos</button>
+                                </a>
                             </div>
                         </div>
                     </div>
