@@ -9,6 +9,11 @@
             "ptDescription": "Aqui temos comandos para ajudar você a moderar seu servidor com mais praticidade!",
             "enDescription": "XXX",
             "icon": "images/categories/img_mod.png",
+            "panel": {
+                "name": "Moderação",
+                "description": "Auxiliar na administração dos servidores em que o bot está presente. As funcionalidades desta categoria incluem: Gerenciamento de cargos, servidor, emojis e figurinhas, canais de texto/voz, e exclusão deles, criação de convites, gerenciamento do servidor, como alterações de nome e ícone, alteração de apelidos e exibição de permissões dos usuários.",
+                "image": "images/panels/img_modPanel.png"
+            },
             "commands": [
                 {
                     "id": 0,
@@ -425,6 +430,12 @@
             "ptDescription": "Comandos para você se divertir com os seus amigos. Hackeie seus amigos, veja o tamanho da sua banana, crie ships, jogue minigames e muito mais!",
             "enDescription": "XXX",
             "icon": "images/categories/img_fun.png",
+            "panel": {
+                "name": "Diversão",
+                "description": "Interativos para entreter os usuários e movimentar os servidores, como edições de textos em mensagens, mini-jogos interativos para 2 jogadores, e muito mais!",
+                "image": "images/panels/img_funPanel.png",
+                "reverse": true
+            },
             "commands": [
                 {
                     "id": 0,
@@ -646,6 +657,11 @@
             "ptDescription": "Interaja com seus amigos usando as mais variadas ações. Mostre que está feliz ou triste, dance com seus amigos, ataque seus inimigos, e muito mais em 20 ações!",
             "enDescription": "XXX",
             "icon": "images/categories/img_act.png",
+            "panel": {
+                "name": "Ações",
+                "description": "Perfeito para roleplay com os amigos, com mais de 30 interações entre usuários com gifs!",
+                "image": "images/panels/img_actPanel.png"
+            },
             "commands": [
                 {
                     "id": 0,
@@ -1137,6 +1153,12 @@
             "ptDescription": "Traduza textos em outros idiomas, role dados, faça contas, pesquise por imagens e letras de músicas, veja informações sobre seu servidor, canal e usuários. Tudo e mais um pouco!",
             "enDescription": "XXX",
             "icon": "images/categories/img_util.png",
+            "panel": {
+                "name": "Utilidades",
+                "description": "Comandos úteis para os usuários, que tragam resoluções de problemas do servidor e/ou do cotidiano. Utilidades incluem: Informações gerais sobre o servidor, membros, canais de texto e cargos. Ademais, pesquisas automáticas, utilizando APIs verificadas e seguras para busca de informações, contas aritméticas, avatares de usuários e ícones de servidor.",
+                "image": "images/panels/img_utilPanel.png",
+                "reverse": true
+            },
             "commands": [
                 {
                     "id": 0,
@@ -1538,6 +1560,11 @@
             "ptDescription": "Crie memes, customize o seu avatar e crie montagens engraçadas com seus amigos!",
             "enDescription": "XXX",
             "icon": "images/categories/img_ps.png",
+            "panel": {
+                "name": "Photoshop",
+                "description": "Edições de imagens e gifs, para criar imagens e memes com avatares de usuários e ícones do servidor.",
+                "image": "images/panels/img_psPanel.png"
+            },
             "commands": [
                 {
                     "id": 0,
@@ -2190,6 +2217,12 @@
             "ptDescription": "Confira meu próprio sistema de economia e junte o máximo de moedas que puder. Aposte em minigames como blackjack, cara ou coroa, dados, corridas, e muito mais!",
             "enDescription": "XXX",
             "icon": "images/categories/img_economy.png",
+            "panel": {
+                "name": "Economia",
+                "description": "Confira meu próprio sistema de economia e junte o máximo de moedas que puder. Divirta-se com comandos de apostas como caça-níqueis, dados, cara ou coroa, dados, blackjack, corridas, jogos do bicho e muito mais!",
+                "image": "images/panels/img_ecoPanel.png",
+                "reverse": true
+            },
             "commands": [
                 {
                     "id": 0,
@@ -2621,6 +2654,11 @@
             "ptDescription": "Crie e customize seu próprio perfil com cenários, layouts, gênero e muito mais!",
             "enDescription": "XXX",
             "icon": "images/categories/img_social.png",
+            "panel": {
+                "name": "Social",
+                "description": "Crie e customize seu próprio perfil com cenários, layouts, gênero e muito mais!",
+                "image": "images/panels/img_socPanel.png"
+            },
             "commands": [
                 {
                     "id": 0,

@@ -1,6 +1,7 @@
 import CreateAboutDetails from './CreateAboutDetails';
 import './about.scss';
 import config from '../../../config.json';
+import CreateAboutMains from './CreateAboutMains';
 
 function About() {
     const inviteLink = config.inviteLink;
@@ -57,6 +58,7 @@ function About() {
                             </div>
                         </div>
                     </section>
+                    <CreateAboutMains/>
                 </div>
             </div>
         </div>

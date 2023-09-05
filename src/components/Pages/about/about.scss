@@ -176,6 +176,70 @@ $inviteButtonColor: #c01010;
     margin: 5%;
 }
 
+/* Div principal dos painéis */
+#about-panel-div {
+    background-color: $aboutMainRadialColor;
+}
+
+/* Sessões para alinhar painéis e textos */
+.about-main-sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.about-main-sections.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Divs dos textos dos painéis */
+.about-main-texts-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+/* Títulos dos painéis */
+.about-main-titles {
+    color: #fff;
+    font-size: 30px;
+}
+
+/* Divs das descrições dos painéis */
+.about-main-descriptions-divs {
+    
+    width: 80%;
+}
+
+/* Descrições dos painéis */
+.about-main-descriptions {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Divs dos painéis */
+.about-main-images-divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+/* Painéis */
+.about-main-images {
+    width: 50vw;
+    animation: AboutMainImagesHover 1s infinite ease-in-out;
+}
+
+@keyframes AboutMainImagesHover {
+    50% {
+        transform: translateY(5px);
+    }
+}
+
 @media screen and (min-width: 769px) {
     /* Board da sessão de sobre */
     .about-board {
@@ -198,5 +262,22 @@ $inviteButtonColor: #c01010;
 
     #about-right-div {
         width: 80%;
+    }
+    /* Sessões para alinhar painéis e textos */
+    .about-main-sections {
+        flex-direction: column;
+    }
+    .about-main-sections.reverse {
+        flex-direction: column;
+    }
+    
+    /* Divs dos painéis */
+    .about-main-images-divs {
+        width: 100%;
+    }
+
+    /* Painéis */
+    .about-main-images {
+        width: 90%;
     }
 }
