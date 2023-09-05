@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: #101020;
-    background-image: linear-gradient(180deg, rgba(15, 5, 5, 1) 0%, rgba(10, 0, 0, 1) 100%);
+    background-image: linear-gradient(180deg, rgba(10, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 /* Div dos textos da página de comandos */
@@ -116,7 +116,7 @@
 .categorie-buttons.off#categorie-button-0:hover {
     color: var(--font-color-categorie-0);
     border: 1px solid var(--font-color-categorie-0);
-    box-shadow: var(--font-color-categorie-0) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-0) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-0 {
     background-color: var(--font-color-categorie-0);
@@ -125,7 +125,7 @@
 .categorie-buttons.off#categorie-button-1:hover {
     color: var(--font-color-categorie-1);
     border: 1px solid var(--font-color-categorie-1);
-    box-shadow: var(--font-color-categorie-1) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-1) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-1 {
     background-color: var(--font-color-categorie-1);
@@ -134,7 +134,7 @@
 .categorie-buttons.off#categorie-button-2:hover {
     color: var(--font-color-categorie-2);
     border: 1px solid var(--font-color-categorie-2);
-    box-shadow: var(--font-color-categorie-2) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-2) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-2 {
     background-color: var(--font-color-categorie-2);
@@ -143,7 +143,7 @@
 .categorie-buttons.off#categorie-button-3:hover {
     color: var(--font-color-categorie-3);
     border: 1px solid var(--font-color-categorie-3);
-    box-shadow: var(--font-color-categorie-3) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-3) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-3 {
     background-color: var(--font-color-categorie-3);
@@ -152,7 +152,7 @@
 .categorie-buttons.off#categorie-button-4:hover {
     color: var(--font-color-categorie-4);
     border: 1px solid var(--font-color-categorie-4);
-    box-shadow: var(--font-color-categorie-4) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-4) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-4 {
     background-color: var(--font-color-categorie-4);
@@ -161,7 +161,7 @@
 .categorie-buttons.off#categorie-button-5:hover {
     color: var(--font-color-categorie-5);
     border: 1px solid var(--font-color-categorie-5);
-    box-shadow: var(--font-color-categorie-5) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-5) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-5 {
     background-color: var(--font-color-categorie-5);
@@ -170,7 +170,7 @@
 .categorie-buttons.off#categorie-button-6:hover {
     color: var(--font-color-categorie-6);
     border: 1px solid var(--font-color-categorie-6);
-    box-shadow: var(--font-color-categorie-6) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-6) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-6 {
     background-color: var(--font-color-categorie-6);
@@ -179,7 +179,7 @@
 .categorie-buttons.off#categorie-button-7:hover {
     color: var(--font-color-categorie-7);
     border: 1px solid var(--font-color-categorie-7);
-    box-shadow: var(--font-color-categorie-7) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-7) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-7 {
     background-color: var(--font-color-categorie-7);
@@ -188,7 +188,7 @@
 .categorie-buttons.off#categorie-button-8:hover {
     color: var(--font-color-categorie-8);
     border: 1px solid var(--font-color-categorie-8);
-    box-shadow: var(--font-color-categorie-8) 0px 0px 5px;
+    box-shadow: var(--font-color-categorie-8) 0px 0px 10px;
 }
 .categorie-buttons.on#categorie-button-8 {
     background-color: var(--font-color-categorie-8);
@@ -341,7 +341,7 @@
     height: 100%;
     background-color: #0a0a0a;
     outline: 2px solid #666;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: auto;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }

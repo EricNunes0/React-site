@@ -18,7 +18,7 @@ export default function FooterBar() {
                                 </div>
                             </div>
                             <div id = "footer-rights">
-                                <p id = "footer-rights-text">© <b>Eric2605</b> 2021 - {new Date().getFullYear()} - Todos os direitos reservados</p>
+                                <p id = "footer-rights-text">© <b>Eric2605</b> 2022 - {new Date().getFullYear()} - Todos os direitos reservados</p>
                             </div>
                         </div>
                     </div>
