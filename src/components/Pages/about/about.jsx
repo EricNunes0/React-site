@@ -6,7 +6,7 @@ import CreateAboutMains from './CreateAboutMains';
 function About() {
     const inviteLink = config.inviteLink;
     return (
-        <div className = "about-page">
+        <div id = "about-page">
             <div className = "about-main">
                 <div className = "about-main-flex">
                     <div className = "about-main-introduction">
@@ -59,6 +59,7 @@ function About() {
                         </div>
                     </section>
                     <CreateAboutMains/>
+                    <div id="introduction-see-commands-button-div"><a href="/Commands"><button type="button" id="introduction-see-commands-button">Ver comandos</button></a></div>
                 </div>
             </div>
         </div>

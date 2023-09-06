@@ -1,8 +1,8 @@
 import './support.scss';
 
 export default function Support() {
-    const iconURL = "https://i.imgur.com/7rCYNja.png";
-    const supportServerURL = "https://discord.gg/egnNbVvnqx";
+    const iconURL = "images/img_serverIcon.png";
+    const supportServerURL = "https://discord.gg/5MbskQmXRx";
     const onlineCount = 90;
     const memberCount = 750;
     const onlineIcon = "../../images/img_online.png";

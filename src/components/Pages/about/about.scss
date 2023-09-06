@@ -1,4 +1,8 @@
-$aboutMainRadialColor: #0a0000;
+$aboutMainRadialColor: #050000;
+
+#about-page {
+    background-color: $aboutMainRadialColor;
+}
 
 .about-main-introduction {
     width: 100%;
@@ -187,7 +191,7 @@ $inviteButtonColor: #c01010;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 .about-main-sections.reverse {
     flex-direction: row-reverse;
@@ -202,22 +206,41 @@ $inviteButtonColor: #c01010;
     width: 50vw;
 }
 
+/* Divs dos títulos dos painéis */
+.about-main-titles-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+}
+
+/* Ícones dos títulos dos painéis */
+.about-main-icons {
+    width: 40px;
+    height: 40px;
+}
+
 /* Títulos dos painéis */
 .about-main-titles {
     color: #fff;
-    font-size: 30px;
+    display: block;
+    font-size: 40px;
+    text-align: left;
 }
 
 /* Divs das descrições dos painéis */
 .about-main-descriptions-divs {
-    
-    width: 80%;
+    width: 60%;
 }
 
 /* Descrições dos painéis */
 .about-main-descriptions {
     color: #aaa;
-    font-size: 14px;
+    display: block;
+    font-size: 16px;
+    text-align: left;
 }
 
 /* Divs dos painéis */
@@ -230,8 +253,14 @@ $inviteButtonColor: #c01010;
 
 /* Painéis */
 .about-main-images {
+    -webkit-user-drag: none;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
     width: 50vw;
-    animation: AboutMainImagesHover 1s infinite ease-in-out;
+    filter: drop-shadow(0px 0px 10px rgba(200, 200, 200, 0.2));
+    animation: AboutMainImagesHover 3s infinite ease-in-out;
 }
 
 @keyframes AboutMainImagesHover {
@@ -269,6 +298,17 @@ $inviteButtonColor: #c01010;
     }
     .about-main-sections.reverse {
         flex-direction: column;
+    }
+
+    
+    /* Divs dos textos dos painéis */
+    .about-main-texts-divs {
+        width: 80vw;
+    }
+
+    /* Divs das descrições dos painéis */
+    .about-main-descriptions-divs {
+        width: unset;
     }
     
     /* Divs dos painéis */

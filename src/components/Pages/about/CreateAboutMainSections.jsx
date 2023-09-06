@@ -1,5 +1,5 @@
 export default function CreateAboutMainSections({panel}) {
-    let sectionClass = "about-main-sections";
+    let sectionClass = "about-main-sections reveal-bottom";
     if(panel.reverse === true) {
         sectionClass = `${sectionClass} reverse`;
     };
@@ -8,7 +8,12 @@ export default function CreateAboutMainSections({panel}) {
         <section className = {sectionClass}>
             <div className = "about-main-texts-divs">
                 <div className = "about-main-titles-divs">
-                    <span className = "about-main-titles">{panel.name}</span>
+                    <div className = "about-main-titles-icons-divs">
+                        <img className = "about-main-icons" src = {panel.icon}></img>
+                    </div>
+                    <div className = "about-main-titles-texts-divs">
+                        <span className = "about-main-titles">{panel.name}</span>
+                    </div>
                 </div>
                 <div className = "about-main-descriptions-divs">
                     <span className = "about-main-descriptions">{panel.description}</span>

@@ -11,8 +11,9 @@
             "icon": "images/categories/img_mod.png",
             "panel": {
                 "name": "Moderação",
-                "description": "Auxiliar na administração dos servidores em que o bot está presente. As funcionalidades desta categoria incluem: Gerenciamento de cargos, servidor, emojis e figurinhas, canais de texto/voz, e exclusão deles, criação de convites, gerenciamento do servidor, como alterações de nome e ícone, alteração de apelidos e exibição de permissões dos usuários.",
-                "image": "images/panels/img_modPanel.png"
+                "description": "Auxilio na administração do seu servidor! As funcionalidades desta categoria incluem: Gerenciamento de cargos, servidor, emojis e figurinhas, canais de texto/voz, e exclusão deles, criação de convites, gerenciamento do servidor, como alterações de nome e ícone, alteração de apelidos e exibição de permissões dos usuários.",
+                "image": "images/panels/img_modPanel.png",
+                "icon": "images/categories/img_mod.png"
             },
             "commands": [
                 {
@@ -434,6 +435,7 @@
                 "name": "Diversão",
                 "description": "Interativos para entreter os usuários e movimentar os servidores, como edições de textos em mensagens, mini-jogos interativos para 2 jogadores, e muito mais!",
                 "image": "images/panels/img_funPanel.png",
+                "icon": "images/categories/img_fun.png",
                 "reverse": true
             },
             "commands": [
@@ -660,7 +662,8 @@
             "panel": {
                 "name": "Ações",
                 "description": "Perfeito para roleplay com os amigos, com mais de 30 interações entre usuários com gifs!",
-                "image": "images/panels/img_actPanel.png"
+                "image": "images/panels/img_actPanel.png",
+                "icon": "images/categories/img_act.png"
             },
             "commands": [
                 {
@@ -1157,6 +1160,7 @@
                 "name": "Utilidades",
                 "description": "Comandos úteis para os usuários, que tragam resoluções de problemas do servidor e/ou do cotidiano. Utilidades incluem: Informações gerais sobre o servidor, membros, canais de texto e cargos. Ademais, pesquisas automáticas, utilizando APIs verificadas e seguras para busca de informações, contas aritméticas, avatares de usuários e ícones de servidor.",
                 "image": "images/panels/img_utilPanel.png",
+                "icon": "images/categories/img_util.png",
                 "reverse": true
             },
             "commands": [
@@ -1563,7 +1567,8 @@
             "panel": {
                 "name": "Photoshop",
                 "description": "Edições de imagens e gifs, para criar imagens e memes com avatares de usuários e ícones do servidor.",
-                "image": "images/panels/img_psPanel.png"
+                "image": "images/panels/img_psPanel.png",
+                "icon": "images/categories/img_ps.png"
             },
             "commands": [
                 {
@@ -2221,6 +2226,7 @@
                 "name": "Economia",
                 "description": "Confira meu próprio sistema de economia e junte o máximo de moedas que puder. Divirta-se com comandos de apostas como caça-níqueis, dados, cara ou coroa, dados, blackjack, corridas, jogos do bicho e muito mais!",
                 "image": "images/panels/img_ecoPanel.png",
+                "icon": "images/categories/img_economy.png",
                 "reverse": true
             },
             "commands": [
@@ -2657,7 +2663,8 @@
             "panel": {
                 "name": "Social",
                 "description": "Crie e customize seu próprio perfil com cenários, layouts, gênero e muito mais!",
-                "image": "images/panels/img_socPanel.png"
+                "image": "images/panels/img_socPanel.png",
+                "icon": "images/categories/img_social.png"
             },
             "commands": [
                 {
