@@ -803,6 +803,21 @@
                 },
                 {
                     "id": 9,
+                    "ptName": "confused",
+                    "enName": "confused",
+                    "ptDescription": "Ação de ficar confuso",
+                    "enDescription": "Action of getting confused",
+                    "aliases": ["confusing", "confuse", "confusion", "confuso", "confusa", "confusão", "confusao"],
+                    "ptHowToUse": "confused (@usuários)",
+                    "enHowToUse": "confused (@users)",
+                    "image": null,
+                    "ptBotPermissions": [],
+                    "ptUserPermissions": [],
+                    "enBotPermissions": [],
+                    "enUserPermissions": []
+                },
+                {
+                    "id": 10,
                     "ptName": "cook",
                     "enName": "cook",
                     "ptDescription": "Ação de cozinha",
@@ -817,7 +832,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 10,
+                    "id": 11,
                     "ptName": "cry",
                     "enName": "cry",
                     "ptDescription": "Mostre que você está chorando",
@@ -832,7 +847,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 11,
+                    "id": 12,
                     "ptName": "cuddle",
                     "enName": "cuddle",
                     "ptDescription": "Demonstre seu afeto por um usuário",
@@ -847,7 +862,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 12,
+                    "id": 13,
                     "ptName": "dance",
                     "enName": "dance",
                     "ptDescription": "Dance com outros usuários",
@@ -862,7 +877,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 13,
+                    "id": 14,
                     "ptName": "eat",
                     "enName": "eat",
                     "ptDescription": "Coma uma comida deliciosa com um usuário",
@@ -877,7 +892,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 14,
+                    "id": 15,
                     "ptName": "feed",
                     "enName": "feed",
                     "ptDescription": "Alimente um usuário",
@@ -892,7 +907,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 15,
+                    "id": 16,
                     "ptName": "gaming",
                     "enName": "gaming",
                     "ptDescription": "Mostre que você está jogando no momento",
@@ -907,7 +922,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 16,
+                    "id": 17,
                     "ptName": "glare",
                     "enName": "glare",
                     "ptDescription": "Encare um usuário",
@@ -922,7 +937,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 17,
+                    "id": 18,
                     "ptName": "handholding",
                     "enName": "handholding",
                     "ptDescription": "Segure a mão de um usuário",
@@ -937,7 +952,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 18,
+                    "id": 19,
                     "ptName": "happy",
                     "enName": "happy",
                     "ptDescription": "Ação de ficar feliz",
@@ -952,7 +967,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 19,
+                    "id": 20,
                     "ptName": "heal",
                     "enName": "heal",
                     "ptDescription": "Cure um usuário",
@@ -967,7 +982,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 20,
+                    "id": 21,
                     "ptName": "hi",
                     "enName": "hi",
                     "ptDescription": "Ação de dizer oi",
@@ -982,7 +997,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 21,
+                    "id": 22,
                     "ptName": "highfive",
                     "enName": "highfive",
                     "ptDescription": "Dê um \"toca aqui\" com um usuário",
@@ -997,7 +1012,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 22,
+                    "id": 23,
                     "ptName": "hug",
                     "enName": "hug",
                     "ptDescription": "Abrace um usuário",
@@ -1012,7 +1027,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 23,
+                    "id": 24,
                     "ptName": "kickbutt",
                     "enName": "kickbutt",
                     "ptDescription": "Chute um usuário",
@@ -1027,7 +1042,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 24,
+                    "id": 25,
                     "ptName": "kiss",
                     "enName": "kiss",
                     "ptDescription": "Beije um usuário",
@@ -1042,7 +1057,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 25,
+                    "id": 26,
                     "ptName": "laugh",
                     "enName": "laugh",
                     "ptDescription": "Ação de dar risada",
@@ -1057,7 +1072,22 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 26,
+                    "id": 27,
+                    "ptName": "lick",
+                    "enName": "lick",
+                    "ptDescription": "Dê uma lambida em um usuário",
+                    "enDescription": "Licks a user",
+                    "aliases": ["licking", "lamber", "lambendo", "lambida"],
+                    "ptHowToUse": "lick <@usuário>",
+                    "enHowToUse": "lick <@user>",
+                    "image": null,
+                    "ptBotPermissions": [],
+                    "ptUserPermissions": [],
+                    "enBotPermissions": [],
+                    "enUserPermissions": []
+                },
+                {
+                    "id": 28,
                     "ptName": "pat",
                     "enName": "pat",
                     "ptDescription": "Faz um cafuné em um usuário",
@@ -1072,7 +1102,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 27,
+                    "id": 29,
                     "ptName": "punch",
                     "enName": "punch",
                     "ptDescription": "Soque um usuário",
@@ -1087,7 +1117,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 28,
+                    "id": 30,
                     "ptName": "sad",
                     "enName": "sad",
                     "ptDescription": "Ação de ficar triste",
@@ -1102,7 +1132,22 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 29,
+                    "id": 31,
+                    "ptName": "scared",
+                    "enName": "scared",
+                    "ptDescription": "Ação de ficar assustado",
+                    "enDescription": "Action of being scared",
+                    "aliases": ["scaring", "scare", "susto", "assustado", "assustada", "assustar"],
+                    "ptHowToUse": "scared (@usuários)",
+                    "enHowToUse": "scared (@users)",
+                    "image": null,
+                    "ptBotPermissions": [],
+                    "ptUserPermissions": [],
+                    "enBotPermissions": [],
+                    "enUserPermissions": []
+                },
+                {
+                    "id": 32,
                     "ptName": "slap",
                     "enName": "slap",
                     "ptDescription": "Dê um tapa em um usuário",
@@ -1117,7 +1162,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 30,
+                    "id": 33,
                     "ptName": "sleep",
                     "enName": "sleep",
                     "ptDescription": "Mostre que você está dormindo ou com sono",
@@ -1132,7 +1177,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 31,
+                    "id": 34,
                     "ptName": "think",
                     "enName": "think",
                     "ptDescription": "Mostre que você está pensando",
@@ -2169,6 +2214,21 @@
                 },
                 {
                     "id": 4,
+                    "ptName": "site",
+                    "enName": "site",
+                    "ptDescription": "Envia o link do website do bot",
+                    "enDescription": "Sends the bot website link",
+                    "aliases": ["website"],
+                    "ptHowToUse": "site",
+                    "enHowToUse": "site",
+                    "image": null,
+                    "ptBotPermissions": [],
+                    "ptUserPermissions": [],
+                    "enBotPermissions": [],
+                    "enUserPermissions": []
+                },
+                {
+                    "id": 5,
                     "ptName": "suggest",
                     "enName": "suggest",
                     "ptDescription": "Tem alguma sugestão para o bot? Envie-a usando este comando",
@@ -2183,7 +2243,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "ptName": "terms",
                     "enName": "terms",
                     "ptDescription": "Veja os Termos de Serviço e a Política de Privacidade do Janny",
@@ -2198,7 +2258,7 @@
                     "enUserPermissions": []
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "ptName": "upvote",
                     "enName": "upvote",
                     "ptDescription": "Envia o link para votar no bot no Top.GG",
